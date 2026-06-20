@@ -8,6 +8,9 @@ End-to-end NLP pipeline for detecting coded dog-whistle language on Reddit, clas
 
 This project was developed as part of the Natural Language Processing course at Università Bocconi and investigates the challenges of identifying politically and ideologically coded language that appears innocuous on the surface but conveys a hidden meaning to specific audiences.
 
+## Report
+
+The full project report is available [here](report/project_report.pdf).
 ---
 
 ## Project Overview
