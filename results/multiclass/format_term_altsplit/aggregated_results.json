@@ -1,0 +1,922 @@
+{
+  "accuracy": {
+    "mean": 0.9984591679506933,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9984591679506933
+    },
+    "values": [
+      0.9984591679506933
+    ]
+  },
+  "classification_report.Islamophobic.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.Islamophobic.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.Islamophobic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.Islamophobic.support": {
+    "mean": 124.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 124.0
+    },
+    "values": [
+      124.0
+    ]
+  },
+  "classification_report.accuracy": {
+    "mean": 0.9984591679506933,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9984591679506933
+    },
+    "values": [
+      0.9984591679506933
+    ]
+  },
+  "classification_report.anti-Asian.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-Asian.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-Asian.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-Asian.support": {
+    "mean": 18.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 18.0
+    },
+    "values": [
+      18.0
+    ]
+  },
+  "classification_report.anti-GMO.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-GMO.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-GMO.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-GMO.support": {
+    "mean": 6.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 6.0
+    },
+    "values": [
+      6.0
+    ]
+  },
+  "classification_report.anti-LGBTQ.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-LGBTQ.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-LGBTQ.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-LGBTQ.support": {
+    "mean": 20.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 20.0
+    },
+    "values": [
+      20.0
+    ]
+  },
+  "classification_report.anti-Latino.f1-score": {
+    "mean": 0.9932885906040269,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9932885906040269
+    },
+    "values": [
+      0.9932885906040269
+    ]
+  },
+  "classification_report.anti-Latino.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-Latino.recall": {
+    "mean": 0.9866666666666667,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9866666666666667
+    },
+    "values": [
+      0.9866666666666667
+    ]
+  },
+  "classification_report.anti-Latino.support": {
+    "mean": 75.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 75.0
+    },
+    "values": [
+      75.0
+    ]
+  },
+  "classification_report.anti-liberal.f1-score": {
+    "mean": 0.9973614775725593,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9973614775725593
+    },
+    "values": [
+      0.9973614775725593
+    ]
+  },
+  "classification_report.anti-liberal.precision": {
+    "mean": 0.9947368421052631,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9947368421052631
+    },
+    "values": [
+      0.9947368421052631
+    ]
+  },
+  "classification_report.anti-liberal.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-liberal.support": {
+    "mean": 189.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 189.0
+    },
+    "values": [
+      189.0
+    ]
+  },
+  "classification_report.anti-vax.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-vax.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-vax.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.anti-vax.support": {
+    "mean": 21.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 21.0
+    },
+    "values": [
+      21.0
+    ]
+  },
+  "classification_report.antisemitic.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.antisemitic.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.antisemitic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.antisemitic.support": {
+    "mean": 314.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 314.0
+    },
+    "values": [
+      314.0
+    ]
+  },
+  "classification_report.climate change denier.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.climate change denier.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.climate change denier.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.climate change denier.support": {
+    "mean": 31.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 31.0
+    },
+    "values": [
+      31.0
+    ]
+  },
+  "classification_report.conservative.f1-score": {
+    "mean": 0.975609756097561,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.975609756097561
+    },
+    "values": [
+      0.975609756097561
+    ]
+  },
+  "classification_report.conservative.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.conservative.recall": {
+    "mean": 0.9523809523809523,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9523809523809523
+    },
+    "values": [
+      0.9523809523809523
+    ]
+  },
+  "classification_report.conservative.support": {
+    "mean": 42.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 42.0
+    },
+    "values": [
+      42.0
+    ]
+  },
+  "classification_report.homophobic.f1-score": {
+    "mean": 0.9696969696969697,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9696969696969697
+    },
+    "values": [
+      0.9696969696969697
+    ]
+  },
+  "classification_report.homophobic.precision": {
+    "mean": 0.9411764705882353,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9411764705882353
+    },
+    "values": [
+      0.9411764705882353
+    ]
+  },
+  "classification_report.homophobic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.homophobic.support": {
+    "mean": 32.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 32.0
+    },
+    "values": [
+      32.0
+    ]
+  },
+  "classification_report.liberal.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.liberal.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.liberal.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.liberal.support": {
+    "mean": 12.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 12.0
+    },
+    "values": [
+      12.0
+    ]
+  },
+  "classification_report.macro avg.f1-score": {
+    "mean": 0.9964420441095064,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9964420441095064
+    },
+    "values": [
+      0.9964420441095064
+    ]
+  },
+  "classification_report.macro avg.precision": {
+    "mean": 0.9964396284829723,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9964396284829723
+    },
+    "values": [
+      0.9964396284829723
+    ]
+  },
+  "classification_report.macro avg.recall": {
+    "mean": 0.9966137566137567,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9966137566137567
+    },
+    "values": [
+      0.9966137566137567
+    ]
+  },
+  "classification_report.macro avg.support": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "classification_report.misogynistic.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.misogynistic.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.misogynistic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.misogynistic.support": {
+    "mean": 2.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 2.0
+    },
+    "values": [
+      2.0
+    ]
+  },
+  "classification_report.racist.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.racist.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.racist.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.racist.support": {
+    "mean": 444.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 444.0
+    },
+    "values": [
+      444.0
+    ]
+  },
+  "classification_report.religious.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.religious.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.religious.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.religious.support": {
+    "mean": 3.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 3.0
+    },
+    "values": [
+      3.0
+    ]
+  },
+  "classification_report.transphobic.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.transphobic.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.transphobic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.transphobic.support": {
+    "mean": 270.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 270.0
+    },
+    "values": [
+      270.0
+    ]
+  },
+  "classification_report.weighted avg.f1-score": {
+    "mean": 0.9984611588818265,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9984611588818265
+    },
+    "values": [
+      0.9984611588818265
+    ]
+  },
+  "classification_report.weighted avg.precision": {
+    "mean": 0.9985222959510622,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9985222959510622
+    },
+    "values": [
+      0.9985222959510622
+    ]
+  },
+  "classification_report.weighted avg.recall": {
+    "mean": 0.9984591679506933,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9984591679506933
+    },
+    "values": [
+      0.9984591679506933
+    ]
+  },
+  "classification_report.weighted avg.support": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "classification_report.white supremacist.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.white supremacist.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.white supremacist.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.white supremacist.support": {
+    "mean": 333.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 333.0
+    },
+    "values": [
+      333.0
+    ]
+  },
+  "classification_report.xenophobic.f1-score": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.xenophobic.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.xenophobic.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1.0
+    },
+    "values": [
+      1.0
+    ]
+  },
+  "classification_report.xenophobic.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 11.0
+    },
+    "values": [
+      11.0
+    ]
+  },
+  "drop_report.test.after": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "drop_report.test.before": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "drop_report.test.dropped": {
+    "mean": 0.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.0
+    },
+    "values": [
+      0.0
+    ]
+  },
+  "drop_report.val.after": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "drop_report.val.before": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "drop_report.val.dropped": {
+    "mean": 0.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.0
+    },
+    "values": [
+      0.0
+    ]
+  },
+  "f1_macro": {
+    "mean": 0.9964420441095064,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9964420441095064
+    },
+    "values": [
+      0.9964420441095064
+    ]
+  },
+  "f1_weighted": {
+    "mean": 0.9984611588818265,
+    "std": 0.0,
+    "by_seed": {
+      "42": 0.9984611588818265
+    },
+    "values": [
+      0.9984611588818265
+    ]
+  },
+  "n_test": {
+    "mean": 1947.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 1947.0
+    },
+    "values": [
+      1947.0
+    ]
+  },
+  "seed": {
+    "mean": 42.0,
+    "std": 0.0,
+    "by_seed": {
+      "42": 42.0
+    },
+    "values": [
+      42.0
+    ]
+  }
+}

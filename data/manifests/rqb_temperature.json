@@ -1,0 +1,21 @@
+{
+  "model_repo": "calerio/silent-signals-rqb",
+  "branch": "term-seed123",
+  "arm": "term",
+  "n_val": 1754,
+  "T_star": 2.258135092912575,
+  "nll_at_T_1": 2.3325226306915283,
+  "nll_at_T_star": 1.5299348461172095,
+  "val_accuracy": 0.56442417331813,
+  "before": {
+    "median_conf": 0.9970213174819946,
+    "share_conf_gt_0_99": 0.5467502850627138,
+    "share_conf_gt_0_95": 0.6653363740022805
+  },
+  "after": {
+    "median_conf": 0.7500584125518799,
+    "share_conf_gt_0_99": 0.0,
+    "share_conf_gt_0_95": 0.0
+  },
+  "notes": "Single-T scaling on the logits of the demo's default RQB variant (rqb_term_seed123). Argmax-preserving; only confidence values change. Apply at inference: probs = softmax(logits / T_star)."
+}

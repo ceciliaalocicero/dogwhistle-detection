@@ -1,0 +1,86 @@
+{
+  "silent_signals_all": {
+    "rows": 16258,
+    "types": {
+      "Informal": 12923,
+      "Formal": 3335
+    }
+  },
+  "silent_signals_informal": {
+    "rows": 12923,
+    "columns": [
+      "dog_whistle",
+      "dog_whistle_root",
+      "ingroup",
+      "content",
+      "date",
+      "speaker",
+      "chamber",
+      "subreddit",
+      "source",
+      "definition",
+      "type",
+      "party"
+    ],
+    "ingroups": {
+      "racist": 2956,
+      "white supremacist": 2216,
+      "antisemitic": 2092,
+      "transphobic": 1797,
+      "anti-liberal": 1255,
+      "Islamophobic": 824,
+      "anti-Latino": 495,
+      "conservative": 279,
+      "homophobic": 213,
+      "climate change denier": 201,
+      "anti-vax": 136,
+      "anti-LGBTQ": 130,
+      "anti-Asian": 117,
+      "liberal": 77,
+      "xenophobic": 73,
+      "anti-GMO": 34,
+      "religious": 18,
+      "misogynistic": 10
+    }
+  },
+  "detection": {
+    "rows": 101,
+    "columns": [
+      "idx",
+      "dog_whistle",
+      "dog_whistle_root",
+      "ingroup",
+      "definition",
+      "example",
+      "label"
+    ]
+  },
+  "disambiguation": {
+    "rows": 124,
+    "columns": [
+      "type",
+      "dog_whistle",
+      "dog_whistle_root",
+      "ingroup",
+      "content",
+      "date",
+      "speaker",
+      "chamber",
+      "reference",
+      "subreddit",
+      "label",
+      "definition"
+    ]
+  },
+  "informal_potential": {
+    "columns": [
+      "content",
+      "subreddit",
+      "dog_whistle",
+      "date",
+      "ingroup",
+      "source"
+    ],
+    "note": "6.03M rows (sampled 1000)"
+  }
+}

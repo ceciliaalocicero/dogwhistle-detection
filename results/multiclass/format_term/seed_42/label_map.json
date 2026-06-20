@@ -1,0 +1,56 @@
+{
+  "label2id": {
+    "Islamophobic": 0,
+    "anti-Asian": 1,
+    "anti-GMO": 2,
+    "anti-LGBTQ": 3,
+    "anti-Latino": 4,
+    "anti-liberal": 5,
+    "anti-vax": 6,
+    "antisemitic": 7,
+    "climate change denier": 8,
+    "conservative": 9,
+    "homophobic": 10,
+    "liberal": 11,
+    "racist": 12,
+    "religious": 13,
+    "transphobic": 14,
+    "white supremacist": 15,
+    "xenophobic": 16
+  },
+  "id2label": {
+    "0": "Islamophobic",
+    "1": "anti-Asian",
+    "2": "anti-GMO",
+    "3": "anti-LGBTQ",
+    "4": "anti-Latino",
+    "5": "anti-liberal",
+    "6": "anti-vax",
+    "7": "antisemitic",
+    "8": "climate change denier",
+    "9": "conservative",
+    "10": "homophobic",
+    "11": "liberal",
+    "12": "racist",
+    "13": "religious",
+    "14": "transphobic",
+    "15": "white supremacist",
+    "16": "xenophobic"
+  },
+  "drop_report": {
+    "val": {
+      "before": 1764,
+      "after": 1754,
+      "dropped": 10,
+      "unseen_label_counts": {
+        "misogynistic": 10
+      }
+    },
+    "test": {
+      "before": 2095,
+      "after": 2095,
+      "dropped": 0,
+      "unseen_label_counts": {}
+    }
+  }
+}

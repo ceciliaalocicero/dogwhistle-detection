@@ -1,0 +1,205 @@
+{
+  "input_format": "term",
+  "seed": 42,
+  "n_test": 2095,
+  "accuracy": 0.47159904534606206,
+  "f1_macro": 0.34905417451672377,
+  "f1_weighted": 0.4176701628781206,
+  "classification_report": {
+    "Islamophobic": {
+      "precision": 0.7464788732394366,
+      "recall": 0.452991452991453,
+      "f1-score": 0.5638297872340425,
+      "support": 117.0
+    },
+    "anti-Asian": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "anti-liberal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 720.0
+    },
+    "antisemitic": {
+      "precision": 0.5368171021377672,
+      "recall": 0.7583892617449665,
+      "f1-score": 0.6286509040333796,
+      "support": 298.0
+    },
+    "climate change denier": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "conservative": {
+      "precision": 0.06349206349206349,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.1111111111111111,
+      "support": 9.0
+    },
+    "racist": {
+      "precision": 0.8365180467091295,
+      "recall": 0.933649289099526,
+      "f1-score": 0.8824188129899216,
+      "support": 422.0
+    },
+    "transphobic": {
+      "precision": 0.7021276595744681,
+      "recall": 0.7734375,
+      "f1-score": 0.7360594795539034,
+      "support": 256.0
+    },
+    "white supremacist": {
+      "precision": 0.14927344782034346,
+      "recall": 0.4139194139194139,
+      "f1-score": 0.21941747572815534,
+      "support": 273.0
+    },
+    "accuracy": 0.47159904534606206,
+    "macro avg": {
+      "precision": 0.3371896881081342,
+      "recall": 0.4196479291333115,
+      "f1-score": 0.34905417451672377,
+      "support": 2095.0
+    },
+    "weighted avg": {
+      "precision": 0.39207059713354064,
+      "recall": 0.47159904534606206,
+      "f1-score": 0.4176701628781206,
+      "support": 2095.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      53,
+      0,
+      0,
+      52,
+      0,
+      0,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      58,
+      0,
+      3,
+      48,
+      68,
+      543
+    ],
+    [
+      14,
+      0,
+      19,
+      226,
+      1,
+      0,
+      5,
+      14,
+      19
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      3,
+      0,
+      4,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      394,
+      2,
+      25
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      198,
+      56
+    ],
+    [
+      3,
+      1,
+      8,
+      80,
+      0,
+      56,
+      12,
+      0,
+      113
+    ]
+  ],
+  "confusion_matrix_label_order": [
+    "Islamophobic",
+    "anti-Asian",
+    "anti-liberal",
+    "antisemitic",
+    "climate change denier",
+    "conservative",
+    "racist",
+    "transphobic",
+    "white supremacist"
+  ],
+  "drop_report": {
+    "val": {
+      "before": 1764,
+      "after": 1754,
+      "dropped": 10,
+      "unseen_label_counts": {
+        "misogynistic": 10
+      }
+    },
+    "test": {
+      "before": 2095,
+      "after": 2095,
+      "dropped": 0,
+      "unseen_label_counts": {}
+    }
+  }
+}

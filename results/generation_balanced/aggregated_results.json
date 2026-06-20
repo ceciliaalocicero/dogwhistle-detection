@@ -1,0 +1,3224 @@
+{
+  "definition.accuracy": {
+    "mean": 0.07223548130469372,
+    "std": 0.017780385100651067,
+    "values": [
+      0.0973747016706444,
+      0.05918854415274463,
+      0.06014319809069212
+    ]
+  },
+  "definition.macro_f1": {
+    "mean": 0.020969514942346588,
+    "std": 0.0034266402271870898,
+    "values": [
+      0.02496501085692528,
+      0.021346594171886626,
+      0.016596939798227867
+    ]
+  },
+  "definition.per_class.black lives don't matter.f1": {
+    "mean": 0.8000000000000002,
+    "std": 1.1102230246251565e-16,
+    "values": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  "definition.per_class.black lives don't matter.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.black lives don't matter.recall": {
+    "mean": 0.6666666666666666,
+    "std": 0.0,
+    "values": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ]
+  },
+  "definition.per_class.black lives don't matter.support": {
+    "mean": 18.0,
+    "std": 0.0,
+    "values": [
+      18.0,
+      18.0,
+      18.0
+    ]
+  },
+  "definition.per_class.black men are criminals or violent.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.black men are criminals or violent.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.black men are criminals or violent.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.black men are criminals or violent.support": {
+    "mean": 53.0,
+    "std": 0.0,
+    "values": [
+      53.0,
+      53.0,
+      53.0
+    ]
+  },
+  "definition.per_class.convicted murderer whose imagery is used to link blackness with criminality and threat.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.convicted murderer whose imagery is used to link blackness with criminality and threat.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.convicted murderer whose imagery is used to link blackness with criminality and threat.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.convicted murderer whose imagery is used to link blackness with criminality and threat.support": {
+    "mean": 10.0,
+    "std": 0.0,
+    "values": [
+      10.0,
+      10.0,
+      10.0
+    ]
+  },
+  "definition.per_class.either trans women are not women because they don't have a uterus, or that trans people are trying to reduce cis women to reproductive organs.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.either trans women are not women because they don't have a uterus, or that trans people are trying to reduce cis women to reproductive organs.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.either trans women are not women because they don't have a uterus, or that trans people are trying to reduce cis women to reproductive organs.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.either trans women are not women because they don't have a uterus, or that trans people are trying to reduce cis women to reproductive organs.support": {
+    "mean": 21.0,
+    "std": 0.0,
+    "values": [
+      21.0,
+      21.0,
+      21.0
+    ]
+  },
+  "definition.per_class.give white americans back full social and political control over the country.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.give white americans back full social and political control over the country.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.give white americans back full social and political control over the country.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.give white americans back full social and political control over the country.support": {
+    "mean": 55.0,
+    "std": 0.0,
+    "values": [
+      55.0,
+      55.0,
+      55.0
+    ]
+  },
+  "definition.per_class.how deeply someone has fallen into fascist ideology.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.how deeply someone has fallen into fascist ideology.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.how deeply someone has fallen into fascist ideology.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.how deeply someone has fallen into fascist ideology.support": {
+    "mean": 20.0,
+    "std": 0.0,
+    "values": [
+      20.0,
+      20.0,
+      20.0
+    ]
+  },
+  "definition.per_class.jewish conspiracy.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish conspiracy.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish conspiracy.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish conspiracy.support": {
+    "mean": 45.0,
+    "std": 0.0,
+    "values": [
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "definition.per_class.jewish people control the media.f1": {
+    "mean": 0.7856606606606608,
+    "std": 0.1289183540621201,
+    "values": [
+      0.75,
+      0.9583333333333334,
+      0.6486486486486487
+    ]
+  },
+  "definition.per_class.jewish people control the media.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.jewish people control the media.recall": {
+    "mean": 0.6666666666666666,
+    "std": 0.1857118436957883,
+    "values": [
+      0.6,
+      0.92,
+      0.48
+    ]
+  },
+  "definition.per_class.jewish people control the media.support": {
+    "mean": 25.0,
+    "std": 0.0,
+    "values": [
+      25.0,
+      25.0,
+      25.0
+    ]
+  },
+  "definition.per_class.jewish people control the world.f1": {
+    "mean": 0.1821726032252348,
+    "std": 0.2434857009983501,
+    "values": [
+      0.0,
+      0.020202020202020204,
+      0.5263157894736842
+    ]
+  },
+  "definition.per_class.jewish people control the world.precision": {
+    "mean": 0.2504409171075838,
+    "std": 0.32833614120292076,
+    "values": [
+      0.0,
+      0.037037037037037035,
+      0.7142857142857143
+    ]
+  },
+  "definition.per_class.jewish people control the world.recall": {
+    "mean": 0.14351851851851852,
+    "std": 0.1932281180991593,
+    "values": [
+      0.0,
+      0.013888888888888888,
+      0.4166666666666667
+    ]
+  },
+  "definition.per_class.jewish people control the world.support": {
+    "mean": 72.0,
+    "std": 0.0,
+    "values": [
+      72.0,
+      72.0,
+      72.0
+    ]
+  },
+  "definition.per_class.jewish people who control the media.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish people who control the media.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish people who control the media.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish people who control the media.support": {
+    "mean": 78.0,
+    "std": 0.0,
+    "values": [
+      78.0,
+      78.0,
+      78.0
+    ]
+  },
+  "definition.per_class.jewish people.f1": {
+    "mean": 0.30114447649852844,
+    "std": 0.163847998410125,
+    "values": [
+      0.06944444444444445,
+      0.41935483870967744,
+      0.4146341463414634
+    ]
+  },
+  "definition.per_class.jewish people.precision": {
+    "mean": 0.3360617587108992,
+    "std": 0.215427063611018,
+    "values": [
+      0.047619047619047616,
+      0.5652173913043478,
+      0.3953488372093023
+    ]
+  },
+  "definition.per_class.jewish people.recall": {
+    "mean": 0.29914529914529914,
+    "std": 0.12791991065893818,
+    "values": [
+      0.1282051282051282,
+      0.3333333333333333,
+      0.4358974358974359
+    ]
+  },
+  "definition.per_class.jewish people.support": {
+    "mean": 39.0,
+    "std": 0.0,
+    "values": [
+      39.0,
+      39.0,
+      39.0
+    ]
+  },
+  "definition.per_class.jewish person.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish person.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish person.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish person.support": {
+    "mean": 3.0,
+    "std": 0.0,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "definition.per_class.jewish.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.jewish.support": {
+    "mean": 21.0,
+    "std": 0.0,
+    "values": [
+      21.0,
+      21.0,
+      21.0
+    ]
+  },
+  "definition.per_class.kill or attack, particularly political opponents.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.kill or attack, particularly political opponents.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.kill or attack, particularly political opponents.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.kill or attack, particularly political opponents.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "definition.per_class.liberals.f1": {
+    "mean": 0.008230452674897118,
+    "std": 0.011639617797309425,
+    "values": [
+      0.0,
+      0.0,
+      0.024691358024691357
+    ]
+  },
+  "definition.per_class.liberals.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "definition.per_class.liberals.recall": {
+    "mean": 0.004166666666666667,
+    "std": 0.005892556509887897,
+    "values": [
+      0.0,
+      0.0,
+      0.0125
+    ]
+  },
+  "definition.per_class.liberals.support": {
+    "mean": 720.0,
+    "std": 0.0,
+    "values": [
+      720.0,
+      720.0,
+      720.0
+    ]
+  },
+  "definition.per_class.low-income black neighborhood.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.low-income black neighborhood.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.low-income black neighborhood.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.low-income black neighborhood.support": {
+    "mean": 56.0,
+    "std": 0.0,
+    "values": [
+      56.0,
+      56.0,
+      56.0
+    ]
+  },
+  "definition.per_class.make america white again.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.make america white again.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.make america white again.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.make america white again.support": {
+    "mean": 87.0,
+    "std": 0.0,
+    "values": [
+      87.0,
+      87.0,
+      87.0
+    ]
+  },
+  "definition.per_class.minorities are dirty and criminals.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.minorities are dirty and criminals.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.minorities are dirty and criminals.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.minorities are dirty and criminals.support": {
+    "mean": 91.0,
+    "std": 0.0,
+    "values": [
+      91.0,
+      91.0,
+      91.0
+    ]
+  },
+  "definition.per_class.muslim people as a whole are a threat.f1": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.muslim people as a whole are a threat.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.muslim people as a whole are a threat.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.muslim people as a whole are a threat.support": {
+    "mean": 45.0,
+    "std": 0.0,
+    "values": [
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "definition.per_class.muslims create problems in society.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims create problems in society.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims create problems in society.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims create problems in society.support": {
+    "mean": 43.0,
+    "std": 0.0,
+    "values": [
+      43.0,
+      43.0,
+      43.0
+    ]
+  },
+  "definition.per_class.muslims threaten christian society.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims threaten christian society.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims threaten christian society.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.muslims threaten christian society.support": {
+    "mean": 29.0,
+    "std": 0.0,
+    "values": [
+      29.0,
+      29.0,
+      29.0
+    ]
+  },
+  "definition.per_class.race war.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.race war.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.race war.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.race war.support": {
+    "mean": 66.0,
+    "std": 0.0,
+    "values": [
+      66.0,
+      66.0,
+      66.0
+    ]
+  },
+  "definition.per_class.self-referential signal for detransitioners that are now anti-trans.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.self-referential signal for detransitioners that are now anti-trans.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.self-referential signal for detransitioners that are now anti-trans.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.self-referential signal for detransitioners that are now anti-trans.support": {
+    "mean": 2.0,
+    "std": 0.0,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ]
+  },
+  "definition.per_class.the person being talked about is jewish.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.the person being talked about is jewish.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.the person being talked about is jewish.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.the person being talked about is jewish.support": {
+    "mean": 15.0,
+    "std": 0.0,
+    "values": [
+      15.0,
+      15.0,
+      15.0
+    ]
+  },
+  "definition.per_class.there are too many non-white people in the world.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.there are too many non-white people in the world.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.there are too many non-white people in the world.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.there are too many non-white people in the world.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "definition.per_class.trans men will always be women, and trans women will always be men.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans men will always be women, and trans women will always be men.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans men will always be women, and trans women will always be men.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans men will always be women, and trans women will always be men.support": {
+    "mean": 71.0,
+    "std": 0.0,
+    "values": [
+      71.0,
+      71.0,
+      71.0
+    ]
+  },
+  "definition.per_class.trans people are liars who appropriate intersex people's struggles.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are liars who appropriate intersex people's struggles.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are liars who appropriate intersex people's struggles.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are liars who appropriate intersex people's struggles.support": {
+    "mean": 8.0,
+    "std": 0.0,
+    "values": [
+      8.0,
+      8.0,
+      8.0
+    ]
+  },
+  "definition.per_class.trans people are threatening cis lesbians.f1": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are threatening cis lesbians.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are threatening cis lesbians.recall": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people are threatening cis lesbians.support": {
+    "mean": 43.0,
+    "std": 0.0,
+    "values": [
+      43.0,
+      43.0,
+      43.0
+    ]
+  },
+  "definition.per_class.trans people aren't real.f1": {
+    "mean": 0.0392156862745098,
+    "std": 0.0554593553871802,
+    "values": [
+      0.0,
+      0.11764705882352941,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people aren't real.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people aren't real.recall": {
+    "mean": 0.020833333333333332,
+    "std": 0.02946278254943948,
+    "values": [
+      0.0,
+      0.0625,
+      0.0
+    ]
+  },
+  "definition.per_class.trans people aren't real.support": {
+    "mean": 32.0,
+    "std": 0.0,
+    "values": [
+      32.0,
+      32.0,
+      32.0
+    ]
+  },
+  "definition.per_class.trans women are showered with undue praise just for existing.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans women are showered with undue praise just for existing.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans women are showered with undue praise just for existing.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.trans women are showered with undue praise just for existing.support": {
+    "mean": 65.0,
+    "std": 0.0,
+    "values": [
+      65.0,
+      65.0,
+      65.0
+    ]
+  },
+  "definition.per_class.transphobic reference to statistic that 41% of trans people have attempted suicide, often used to imply trans people should kill themselves.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic reference to statistic that 41% of trans people have attempted suicide, often used to imply trans people should kill themselves.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic reference to statistic that 41% of trans people have attempted suicide, often used to imply trans people should kill themselves.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic reference to statistic that 41% of trans people have attempted suicide, often used to imply trans people should kill themselves.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "definition.per_class.transphobic signal representing joanna cherry, an anti-trans activist and scottish politician.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic signal representing joanna cherry, an anti-trans activist and scottish politician.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic signal representing joanna cherry, an anti-trans activist and scottish politician.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.transphobic signal representing joanna cherry, an anti-trans activist and scottish politician.support": {
+    "mean": 3.0,
+    "std": 0.0,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "definition.per_class.unprovoked attack.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.unprovoked attack.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.unprovoked attack.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.unprovoked attack.support": {
+    "mean": 9.0,
+    "std": 0.0,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ]
+  },
+  "definition.per_class.voter suppression that targets people of color.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.voter suppression that targets people of color.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.voter suppression that targets people of color.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.voter suppression that targets people of color.support": {
+    "mean": 28.0,
+    "std": 0.0,
+    "values": [
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "definition.per_class.white people are victims of racial mistreatment.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white people are victims of racial mistreatment.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white people are victims of racial mistreatment.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white people are victims of racial mistreatment.support": {
+    "mean": 39.0,
+    "std": 0.0,
+    "values": [
+      39.0,
+      39.0,
+      39.0
+    ]
+  },
+  "definition.per_class.white supremacist signal referencing short-lived viking settlement in north america.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal referencing short-lived viking settlement in north america.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal referencing short-lived viking settlement in north america.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal referencing short-lived viking settlement in north america.support": {
+    "mean": 6.0,
+    "std": 0.0,
+    "values": [
+      6.0,
+      6.0,
+      6.0
+    ]
+  },
+  "definition.per_class.white supremacist signal, representing pepe the frog.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal, representing pepe the frog.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal, representing pepe the frog.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.white supremacist signal, representing pepe the frog.support": {
+    "mean": 28.0,
+    "std": 0.0,
+    "values": [
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "definition.per_class.white working class.f1": {
+    "mean": 0.4777463518243113,
+    "std": 0.3789509782621656,
+    "values": [
+      0.9491525423728814,
+      0.4628099173553719,
+      0.02127659574468085
+    ]
+  },
+  "definition.per_class.white working class.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "definition.per_class.white working class.recall": {
+    "mean": 0.4050179211469534,
+    "std": 0.3716899451092017,
+    "values": [
+      0.9032258064516129,
+      0.3010752688172043,
+      0.010752688172043012
+    ]
+  },
+  "definition.per_class.white working class.support": {
+    "mean": 93.0,
+    "std": 0.0,
+    "values": [
+      93.0,
+      93.0,
+      93.0
+    ]
+  },
+  "definition.per_class.young black man.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.young black man.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.young black man.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "definition.per_class.young black man.support": {
+    "mean": 23.0,
+    "std": 0.0,
+    "values": [
+      23.0,
+      23.0,
+      23.0
+    ]
+  },
+  "definition.weighted_f1": {
+    "mean": 0.08107262552357067,
+    "std": 0.014274046269948392,
+    "values": [
+      0.10125514070358536,
+      0.07063185951978937,
+      0.07133087634733729
+    ]
+  },
+  "dog_whistle_root.accuracy": {
+    "mean": 0.35099443118536194,
+    "std": 0.05293859995929297,
+    "values": [
+      0.34272076372315036,
+      0.29069212410501194,
+      0.41957040572792365
+    ]
+  },
+  "dog_whistle_root.macro_f1": {
+    "mean": 0.1666627127969277,
+    "std": 0.013899294196006513,
+    "values": [
+      0.1839512405931236,
+      0.1499180986779546,
+      0.16611879911970495
+    ]
+  },
+  "dog_whistle_root.per_class.41%.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.41%.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.41%.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.41%.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "dog_whistle_root.per_class.affirmative action.f1": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.affirmative action.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.affirmative action.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.affirmative action.support": {
+    "mean": 39.0,
+    "std": 0.0,
+    "values": [
+      39.0,
+      39.0,
+      39.0
+    ]
+  },
+  "dog_whistle_root.per_class.all lives matter.f1": {
+    "mean": 0.8000000000000002,
+    "std": 1.1102230246251565e-16,
+    "values": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  "dog_whistle_root.per_class.all lives matter.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.all lives matter.recall": {
+    "mean": 0.6666666666666666,
+    "std": 0.0,
+    "values": [
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ]
+  },
+  "dog_whistle_root.per_class.all lives matter.support": {
+    "mean": 18.0,
+    "std": 0.0,
+    "values": [
+      18.0,
+      18.0,
+      18.0
+    ]
+  },
+  "dog_whistle_root.per_class.biological realism.f1": {
+    "mean": 0.3157894736842105,
+    "std": 0.0,
+    "values": [
+      0.3157894736842105,
+      0.3157894736842105,
+      0.3157894736842105
+    ]
+  },
+  "dog_whistle_root.per_class.biological realism.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.biological realism.recall": {
+    "mean": 0.1875,
+    "std": 0.0,
+    "values": [
+      0.1875,
+      0.1875,
+      0.1875
+    ]
+  },
+  "dog_whistle_root.per_class.biological realism.support": {
+    "mean": 32.0,
+    "std": 0.0,
+    "values": [
+      32.0,
+      32.0,
+      32.0
+    ]
+  },
+  "dog_whistle_root.per_class.blueish.f1": {
+    "mean": 0.196969696969697,
+    "std": 0.07499617376220957,
+    "values": [
+      0.09090909090909091,
+      0.25,
+      0.25
+    ]
+  },
+  "dog_whistle_root.per_class.blueish.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.blueish.recall": {
+    "mean": 0.1111111111111111,
+    "std": 0.04489566864676491,
+    "values": [
+      0.047619047619047616,
+      0.14285714285714285,
+      0.14285714285714285
+    ]
+  },
+  "dog_whistle_root.per_class.blueish.support": {
+    "mean": 21.0,
+    "std": 0.0,
+    "values": [
+      21.0,
+      21.0,
+      21.0
+    ]
+  },
+  "dog_whistle_root.per_class.boogaloo.f1": {
+    "mean": 0.8282581603494505,
+    "std": 0.013027074865184627,
+    "values": [
+      0.831858407079646,
+      0.8421052631578947,
+      0.8108108108108109
+    ]
+  },
+  "dog_whistle_root.per_class.boogaloo.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.boogaloo.recall": {
+    "mean": 0.7070707070707071,
+    "std": 0.018897259529161353,
+    "values": [
+      0.7121212121212122,
+      0.7272727272727273,
+      0.6818181818181818
+    ]
+  },
+  "dog_whistle_root.per_class.boogaloo.support": {
+    "mean": 66.0,
+    "std": 0.0,
+    "values": [
+      66.0,
+      66.0,
+      66.0
+    ]
+  },
+  "dog_whistle_root.per_class.bop.f1": {
+    "mean": 0.6789215686274511,
+    "std": 0.038128306828686405,
+    "values": [
+      0.625,
+      0.7058823529411765,
+      0.7058823529411765
+    ]
+  },
+  "dog_whistle_root.per_class.bop.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.bop.recall": {
+    "mean": 0.5151515151515151,
+    "std": 0.042854956435548326,
+    "values": [
+      0.45454545454545453,
+      0.5454545454545454,
+      0.5454545454545454
+    ]
+  },
+  "dog_whistle_root.per_class.bop.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "dog_whistle_root.per_class.brave and stunning.f1": {
+    "mean": 0.8425901241150507,
+    "std": 0.17270687750704647,
+    "values": [
+      1.0,
+      0.6021505376344086,
+      0.9256198347107438
+    ]
+  },
+  "dog_whistle_root.per_class.brave and stunning.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.brave and stunning.recall": {
+    "mean": 0.764102564102564,
+    "std": 0.24238568816608153,
+    "values": [
+      1.0,
+      0.4307692307692308,
+      0.8615384615384616
+    ]
+  },
+  "dog_whistle_root.per_class.brave and stunning.support": {
+    "mean": 65.0,
+    "std": 0.0,
+    "values": [
+      65.0,
+      65.0,
+      65.0
+    ]
+  },
+  "dog_whistle_root.per_class.cherry emoji.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.cherry emoji.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.cherry emoji.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.cherry emoji.support": {
+    "mean": 3.0,
+    "std": 0.0,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "dog_whistle_root.per_class.coin.f1": {
+    "mean": 0.2222222222222222,
+    "std": 0.0,
+    "values": [
+      0.2222222222222222,
+      0.2222222222222222,
+      0.2222222222222222
+    ]
+  },
+  "dog_whistle_root.per_class.coin.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.coin.recall": {
+    "mean": 0.125,
+    "std": 0.0,
+    "values": [
+      0.125,
+      0.125,
+      0.125
+    ]
+  },
+  "dog_whistle_root.per_class.coin.support": {
+    "mean": 8.0,
+    "std": 0.0,
+    "values": [
+      8.0,
+      8.0,
+      8.0
+    ]
+  },
+  "dog_whistle_root.per_class.coincidence.f1": {
+    "mean": 0.5590230664857531,
+    "std": 0.13815926253848418,
+    "values": [
+      0.6567164179104478,
+      0.36363636363636365,
+      0.6567164179104478
+    ]
+  },
+  "dog_whistle_root.per_class.coincidence.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.coincidence.recall": {
+    "mean": 0.39999999999999997,
+    "std": 0.1257078722109418,
+    "values": [
+      0.4888888888888889,
+      0.2222222222222222,
+      0.4888888888888889
+    ]
+  },
+  "dog_whistle_root.per_class.coincidence.support": {
+    "mean": 45.0,
+    "std": 0.0,
+    "values": [
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "dog_whistle_root.per_class.controlled media.f1": {
+    "mean": 0.6842105263157895,
+    "std": 0.0,
+    "values": [
+      0.6842105263157895,
+      0.6842105263157895,
+      0.6842105263157895
+    ]
+  },
+  "dog_whistle_root.per_class.controlled media.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.controlled media.recall": {
+    "mean": 0.52,
+    "std": 0.0,
+    "values": [
+      0.52,
+      0.52,
+      0.52
+    ]
+  },
+  "dog_whistle_root.per_class.controlled media.support": {
+    "mean": 25.0,
+    "std": 0.0,
+    "values": [
+      25.0,
+      25.0,
+      25.0
+    ]
+  },
+  "dog_whistle_root.per_class.cultural enrichment.f1": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.cultural enrichment.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.cultural enrichment.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.cultural enrichment.support": {
+    "mean": 43.0,
+    "std": 0.0,
+    "values": [
+      43.0,
+      43.0,
+      43.0
+    ]
+  },
+  "dog_whistle_root.per_class.early life.f1": {
+    "mean": 0.634481460568417,
+    "std": 0.05073153386765878,
+    "values": [
+      0.6363636363636364,
+      0.6956521739130435,
+      0.5714285714285714
+    ]
+  },
+  "dog_whistle_root.per_class.early life.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.early life.recall": {
+    "mean": 0.4666666666666666,
+    "std": 0.054433105395181716,
+    "values": [
+      0.4666666666666667,
+      0.5333333333333333,
+      0.4
+    ]
+  },
+  "dog_whistle_root.per_class.early life.support": {
+    "mean": 15.0,
+    "std": 0.0,
+    "values": [
+      15.0,
+      15.0,
+      15.0
+    ]
+  },
+  "dog_whistle_root.per_class.election integrity.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.election integrity.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.election integrity.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.election integrity.support": {
+    "mean": 28.0,
+    "std": 0.0,
+    "values": [
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "dog_whistle_root.per_class.frog emoji.f1": {
+    "mean": 0.04597701149425287,
+    "std": 0.03251065660627805,
+    "values": [
+      0.06896551724137931,
+      0.06896551724137931,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.frog emoji.precision": {
+    "mean": 0.6666666666666666,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.frog emoji.recall": {
+    "mean": 0.023809523809523808,
+    "std": 0.016835875742536845,
+    "values": [
+      0.03571428571428571,
+      0.03571428571428571,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.frog emoji.support": {
+    "mean": 28.0,
+    "std": 0.0,
+    "values": [
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "dog_whistle_root.per_class.gender socialization.f1": {
+    "mean": 0.08108108108108109,
+    "std": 0.0,
+    "values": [
+      0.08108108108108109,
+      0.08108108108108109,
+      0.08108108108108109
+    ]
+  },
+  "dog_whistle_root.per_class.gender socialization.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.gender socialization.recall": {
+    "mean": 0.04225352112676056,
+    "std": 0.0,
+    "values": [
+      0.04225352112676056,
+      0.04225352112676056,
+      0.04225352112676056
+    ]
+  },
+  "dog_whistle_root.per_class.gender socialization.support": {
+    "mean": 71.0,
+    "std": 0.0,
+    "values": [
+      71.0,
+      71.0,
+      71.0
+    ]
+  },
+  "dog_whistle_root.per_class.ghetto.f1": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.ghetto.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.ghetto.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.ghetto.support": {
+    "mean": 56.0,
+    "std": 0.0,
+    "values": [
+      56.0,
+      56.0,
+      56.0
+    ]
+  },
+  "dog_whistle_root.per_class.hollywood elite.f1": {
+    "mean": 0.09506260335459486,
+    "std": 0.06960178857118234,
+    "values": [
+      0.16470588235294117,
+      0.0,
+      0.12048192771084337
+    ]
+  },
+  "dog_whistle_root.per_class.hollywood elite.precision": {
+    "mean": 0.6666666666666666,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.hollywood elite.recall": {
+    "mean": 0.05128205128205129,
+    "std": 0.037742567804819854,
+    "values": [
+      0.08974358974358974,
+      0.0,
+      0.0641025641025641
+    ]
+  },
+  "dog_whistle_root.per_class.hollywood elite.support": {
+    "mean": 78.0,
+    "std": 0.0,
+    "values": [
+      78.0,
+      78.0,
+      78.0
+    ]
+  },
+  "dog_whistle_root.per_class.holocauster.f1": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.holocauster.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.holocauster.recall": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.holocauster.support": {
+    "mean": 3.0,
+    "std": 0.0,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "dog_whistle_root.per_class.islamic extremists.f1": {
+    "mean": 0.8209251538614254,
+    "std": 0.1299432707379766,
+    "values": [
+      0.7671232876712328,
+      1.0,
+      0.6956521739130435
+    ]
+  },
+  "dog_whistle_root.per_class.islamic extremists.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.islamic extremists.recall": {
+    "mean": 0.7185185185185184,
+    "std": 0.20231852272218762,
+    "values": [
+      0.6222222222222222,
+      1.0,
+      0.5333333333333333
+    ]
+  },
+  "dog_whistle_root.per_class.islamic extremists.support": {
+    "mean": 45.0,
+    "std": 0.0,
+    "values": [
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "dog_whistle_root.per_class.judeo-christian.f1": {
+    "mean": 0.8226495726495727,
+    "std": 0.14759665079836962,
+    "values": [
+      0.9642857142857143,
+      0.6190476190476191,
+      0.8846153846153846
+    ]
+  },
+  "dog_whistle_root.per_class.judeo-christian.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.judeo-christian.recall": {
+    "mean": 0.7241379310344828,
+    "std": 0.20302898543282405,
+    "values": [
+      0.9310344827586207,
+      0.4482758620689655,
+      0.7931034482758621
+    ]
+  },
+  "dog_whistle_root.per_class.judeo-christian.support": {
+    "mean": 29.0,
+    "std": 0.0,
+    "values": [
+      29.0,
+      29.0,
+      29.0
+    ]
+  },
+  "dog_whistle_root.per_class.khazars.f1": {
+    "mean": 0.16296296296296295,
+    "std": 0.23046443238672662,
+    "values": [
+      0.0,
+      0.4888888888888889,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.khazars.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.khazars.recall": {
+    "mean": 0.10784313725490197,
+    "std": 0.15251322731474556,
+    "values": [
+      0.0,
+      0.3235294117647059,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.khazars.support": {
+    "mean": 34.0,
+    "std": 0.0,
+    "values": [
+      34.0,
+      34.0,
+      34.0
+    ]
+  },
+  "dog_whistle_root.per_class.lesbian erasure.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lesbian erasure.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lesbian erasure.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lesbian erasure.support": {
+    "mean": 43.0,
+    "std": 0.0,
+    "values": [
+      43.0,
+      43.0,
+      43.0
+    ]
+  },
+  "dog_whistle_root.per_class.lizard emoji.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lizard emoji.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lizard emoji.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.lizard emoji.support": {
+    "mean": 2.0,
+    "std": 0.0,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ]
+  },
+  "dog_whistle_root.per_class.maga.f1": {
+    "mean": 0.8044535834294599,
+    "std": 0.12341298954457022,
+    "values": [
+      0.89171974522293,
+      0.89171974522293,
+      0.6299212598425197
+    ]
+  },
+  "dog_whistle_root.per_class.maga.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.maga.recall": {
+    "mean": 0.6896551724137931,
+    "std": 0.16255328303139024,
+    "values": [
+      0.8045977011494253,
+      0.8045977011494253,
+      0.45977011494252873
+    ]
+  },
+  "dog_whistle_root.per_class.maga.support": {
+    "mean": 87.0,
+    "std": 0.0,
+    "values": [
+      87.0,
+      87.0,
+      87.0
+    ]
+  },
+  "dog_whistle_root.per_class.new york intellectuals.f1": {
+    "mean": 0.7777777777777778,
+    "std": 0.31426968052735443,
+    "values": [
+      1.0,
+      1.0,
+      0.3333333333333333
+    ]
+  },
+  "dog_whistle_root.per_class.new york intellectuals.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.new york intellectuals.recall": {
+    "mean": 0.7333333333333334,
+    "std": 0.3771236166328254,
+    "values": [
+      1.0,
+      1.0,
+      0.2
+    ]
+  },
+  "dog_whistle_root.per_class.new york intellectuals.support": {
+    "mean": 5.0,
+    "std": 0.0,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  "dog_whistle_root.per_class.overpopulation.f1": {
+    "mean": 0.8444444444444444,
+    "std": 0.21998877636914813,
+    "values": [
+      1.0,
+      0.5333333333333333,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.overpopulation.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.overpopulation.recall": {
+    "mean": 0.787878787878788,
+    "std": 0.2999846950488383,
+    "values": [
+      1.0,
+      0.36363636363636365,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.overpopulation.support": {
+    "mean": 11.0,
+    "std": 0.0,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ]
+  },
+  "dog_whistle_root.per_class.power level.f1": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.power level.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.power level.recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.power level.support": {
+    "mean": 20.0,
+    "std": 0.0,
+    "values": [
+      20.0,
+      20.0,
+      20.0
+    ]
+  },
+  "dog_whistle_root.per_class.preemptive strike.f1": {
+    "mean": 0.9047619047619048,
+    "std": 0.13468700594029476,
+    "values": [
+      1.0,
+      0.7142857142857143,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.preemptive strike.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.preemptive strike.recall": {
+    "mean": 0.8518518518518517,
+    "std": 0.20951312035156963,
+    "values": [
+      1.0,
+      0.5555555555555556,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.preemptive strike.support": {
+    "mean": 9.0,
+    "std": 0.0,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ]
+  },
+  "dog_whistle_root.per_class.puppet masters.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.puppet masters.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.puppet masters.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.puppet masters.support": {
+    "mean": 72.0,
+    "std": 0.0,
+    "values": [
+      72.0,
+      72.0,
+      72.0
+    ]
+  },
+  "dog_whistle_root.per_class.references to cities with large racial minority populations being overrun by crime, drugs, rodents.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.references to cities with large racial minority populations being overrun by crime, drugs, rodents.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.references to cities with large racial minority populations being overrun by crime, drugs, rodents.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.references to cities with large racial minority populations being overrun by crime, drugs, rodents.support": {
+    "mean": 91.0,
+    "std": 0.0,
+    "values": [
+      91.0,
+      91.0,
+      91.0
+    ]
+  },
+  "dog_whistle_root.per_class.social justice warrior.f1": {
+    "mean": 0.2949190139842292,
+    "std": 0.22061612461637625,
+    "values": [
+      0.21339950372208435,
+      0.0748663101604278,
+      0.5964912280701754
+    ]
+  },
+  "dog_whistle_root.per_class.social justice warrior.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.social justice warrior.recall": {
+    "mean": 0.19444444444444442,
+    "std": 0.166311349644503,
+    "values": [
+      0.11944444444444445,
+      0.03888888888888889,
+      0.425
+    ]
+  },
+  "dog_whistle_root.per_class.social justice warrior.support": {
+    "mean": 720.0,
+    "std": 0.0,
+    "values": [
+      720.0,
+      720.0,
+      720.0
+    ]
+  },
+  "dog_whistle_root.per_class.strapping young buck.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.strapping young buck.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.strapping young buck.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.strapping young buck.support": {
+    "mean": 23.0,
+    "std": 0.0,
+    "values": [
+      23.0,
+      23.0,
+      23.0
+    ]
+  },
+  "dog_whistle_root.per_class.take back.f1": {
+    "mean": 0.4749585406301824,
+    "std": 0.082554423541514,
+    "values": [
+      0.5333333333333333,
+      0.5333333333333333,
+      0.3582089552238806
+    ]
+  },
+  "dog_whistle_root.per_class.take back.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.take back.recall": {
+    "mean": 0.3151515151515151,
+    "std": 0.06856793029687734,
+    "values": [
+      0.36363636363636365,
+      0.36363636363636365,
+      0.21818181818181817
+    ]
+  },
+  "dog_whistle_root.per_class.take back.support": {
+    "mean": 55.0,
+    "std": 0.0,
+    "values": [
+      55.0,
+      55.0,
+      55.0
+    ]
+  },
+  "dog_whistle_root.per_class.thug.f1": {
+    "mean": 0.547945205479452,
+    "std": 0.0,
+    "values": [
+      0.547945205479452,
+      0.547945205479452,
+      0.547945205479452
+    ]
+  },
+  "dog_whistle_root.per_class.thug.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.thug.recall": {
+    "mean": 0.3773584905660378,
+    "std": 5.551115123125783e-17,
+    "values": [
+      0.37735849056603776,
+      0.37735849056603776,
+      0.37735849056603776
+    ]
+  },
+  "dog_whistle_root.per_class.thug.support": {
+    "mean": 53.0,
+    "std": 0.0,
+    "values": [
+      53.0,
+      53.0,
+      53.0
+    ]
+  },
+  "dog_whistle_root.per_class.uterus-haver.f1": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.uterus-haver.precision": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.uterus-haver.recall": {
+    "mean": 0.0,
+    "std": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "dog_whistle_root.per_class.uterus-haver.support": {
+    "mean": 21.0,
+    "std": 0.0,
+    "values": [
+      21.0,
+      21.0,
+      21.0
+    ]
+  },
+  "dog_whistle_root.per_class.vinland.f1": {
+    "mean": 0.9696969696969697,
+    "std": 0.04285495643554835,
+    "values": [
+      1.0,
+      1.0,
+      0.9090909090909091
+    ]
+  },
+  "dog_whistle_root.per_class.vinland.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.vinland.recall": {
+    "mean": 0.9444444444444445,
+    "std": 0.0785674201318386,
+    "values": [
+      1.0,
+      1.0,
+      0.8333333333333334
+    ]
+  },
+  "dog_whistle_root.per_class.vinland.support": {
+    "mean": 6.0,
+    "std": 0.0,
+    "values": [
+      6.0,
+      6.0,
+      6.0
+    ]
+  },
+  "dog_whistle_root.per_class.willie horton.f1": {
+    "mean": 0.2962962962962963,
+    "std": 0.41902624070313926,
+    "values": [
+      0.0,
+      0.0,
+      0.8888888888888888
+    ]
+  },
+  "dog_whistle_root.per_class.willie horton.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.willie horton.recall": {
+    "mean": 0.26666666666666666,
+    "std": 0.3771236166328254,
+    "values": [
+      0.0,
+      0.0,
+      0.8
+    ]
+  },
+  "dog_whistle_root.per_class.willie horton.support": {
+    "mean": 10.0,
+    "std": 0.0,
+    "values": [
+      10.0,
+      10.0,
+      10.0
+    ]
+  },
+  "dog_whistle_root.per_class.working class.f1": {
+    "mean": 0.9530883006411477,
+    "std": 0.0027830013606021564,
+    "values": [
+      0.9550561797752809,
+      0.9550561797752809,
+      0.9491525423728814
+    ]
+  },
+  "dog_whistle_root.per_class.working class.precision": {
+    "mean": 1.0,
+    "std": 0.0,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "dog_whistle_root.per_class.working class.recall": {
+    "mean": 0.9103942652329748,
+    "std": 0.005068865814957325,
+    "values": [
+      0.9139784946236559,
+      0.9139784946236559,
+      0.9032258064516129
+    ]
+  },
+  "dog_whistle_root.per_class.working class.support": {
+    "mean": 93.0,
+    "std": 0.0,
+    "values": [
+      93.0,
+      93.0,
+      93.0
+    ]
+  },
+  "dog_whistle_root.weighted_f1": {
+    "mean": 0.4272695117235523,
+    "std": 0.07292235731232194,
+    "values": [
+      0.41270374291217976,
+      0.34613642427924335,
+      0.522968367979234
+    ]
+  },
+  "explanation_cosine_mean": {
+    "mean": 0.5420419374309936,
+    "std": 0.010385134692020983,
+    "values": [
+      0.5276785195885126,
+      0.5465692717048173,
+      0.5518780209996511
+    ]
+  },
+  "explanation_cosine_median": {
+    "mean": 0.5029812848969769,
+    "std": 0.03547646996229867,
+    "values": [
+      0.45830025803497754,
+      0.5055588466153202,
+      0.545084750040633
+    ]
+  },
+  "explanation_rouge_l_mean": {
+    "mean": 0.7857863140295879,
+    "std": 0.009955613863761998,
+    "values": [
+      0.7823192594279315,
+      0.7993374561658363,
+      0.7757022264949958
+    ]
+  },
+  "ingroup.accuracy": {
+    "mean": 0.6055688146380271,
+    "std": 0.06540173036106371,
+    "values": [
+      0.513126491646778,
+      0.6544152744630072,
+      0.649164677804296
+    ]
+  },
+  "ingroup.macro_f1": {
+    "mean": 0.3834019495613748,
+    "std": 0.06278021568854183,
+    "values": [
+      0.4162989048391436,
+      0.4383703884965005,
+      0.2955365553484804
+    ]
+  },
+  "ingroup.per_class.anti-liberal.f1": {
+    "mean": 0.45562623521156426,
+    "std": 0.32280933418575225,
+    "values": [
+      0.0,
+      0.6586936522539099,
+      0.708185053380783
+    ]
+  },
+  "ingroup.per_class.anti-liberal.precision": {
+    "mean": 0.6535417846961807,
+    "std": 0.46214069544905156,
+    "values": [
+      0.0,
+      0.9754768392370572,
+      0.9851485148514851
+    ]
+  },
+  "ingroup.per_class.anti-liberal.recall": {
+    "mean": 0.35000000000000003,
+    "std": 0.24852445210115862,
+    "values": [
+      0.0,
+      0.49722222222222223,
+      0.5527777777777778
+    ]
+  },
+  "ingroup.per_class.anti-liberal.support": {
+    "mean": 720.0,
+    "std": 0.0,
+    "values": [
+      720.0,
+      720.0,
+      720.0
+    ]
+  },
+  "ingroup.per_class.antisemitic.f1": {
+    "mean": 0.5308192730463269,
+    "std": 0.11539994077720486,
+    "values": [
+      0.3993453355155483,
+      0.5128205128205128,
+      0.6802919708029197
+    ]
+  },
+  "ingroup.per_class.antisemitic.precision": {
+    "mean": 0.41670324544882914,
+    "std": 0.1399144641665018,
+    "values": [
+      0.26406926406926406,
+      0.38397328881469117,
+      0.6020671834625323
+    ]
+  },
+  "ingroup.per_class.antisemitic.recall": {
+    "mean": 0.79082774049217,
+    "std": 0.020196275263163088,
+    "values": [
+      0.8187919463087249,
+      0.7718120805369127,
+      0.7818791946308725
+    ]
+  },
+  "ingroup.per_class.antisemitic.support": {
+    "mean": 298.0,
+    "std": 0.0,
+    "values": [
+      298.0,
+      298.0,
+      298.0
+    ]
+  },
+  "ingroup.per_class.conservative.f1": {
+    "mean": 0.2916666666666667,
+    "std": 0.4124789556921527,
+    "values": [
+      0.875,
+      0.0,
+      0.0
+    ]
+  },
+  "ingroup.per_class.conservative.precision": {
+    "mean": 0.3333333333333333,
+    "std": 0.4714045207910317,
+    "values": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ingroup.per_class.conservative.recall": {
+    "mean": 0.25925925925925924,
+    "std": 0.36664796061524685,
+    "values": [
+      0.7777777777777778,
+      0.0,
+      0.0
+    ]
+  },
+  "ingroup.per_class.conservative.support": {
+    "mean": 9.0,
+    "std": 0.0,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ]
+  },
+  "ingroup.per_class.islamophobic.f1": {
+    "mean": 0.5532971996386631,
+    "std": 0.0031937975663348943,
+    "values": [
+      0.5555555555555556,
+      0.5555555555555556,
+      0.5487804878048781
+    ]
+  },
+  "ingroup.per_class.islamophobic.precision": {
+    "mean": 0.9858156028368795,
+    "std": 0.020059766842171537,
+    "values": [
+      1.0,
+      1.0,
+      0.9574468085106383
+    ]
+  },
+  "ingroup.per_class.islamophobic.recall": {
+    "mean": 0.38461538461538464,
+    "std": 0.0,
+    "values": [
+      0.38461538461538464,
+      0.38461538461538464,
+      0.38461538461538464
+    ]
+  },
+  "ingroup.per_class.islamophobic.support": {
+    "mean": 117.0,
+    "std": 0.0,
+    "values": [
+      117.0,
+      117.0,
+      117.0
+    ]
+  },
+  "ingroup.per_class.racist.f1": {
+    "mean": 0.8064941586442971,
+    "std": 0.0556515061085188,
+    "values": [
+      0.7435653002859867,
+      0.7970244420828906,
+      0.8788927335640139
+    ]
+  },
+  "ingroup.per_class.racist.precision": {
+    "mean": 0.7335775657533485,
+    "std": 0.095917453149635,
+    "values": [
+      0.6220095693779905,
+      0.7225433526011561,
+      0.8561797752808988
+    ]
+  },
+  "ingroup.per_class.racist.recall": {
+    "mean": 0.9052132701421801,
+    "std": 0.014607616120779553,
+    "values": [
+      0.9241706161137441,
+      0.8886255924170616,
+      0.9028436018957346
+    ]
+  },
+  "ingroup.per_class.racist.support": {
+    "mean": 422.0,
+    "std": 0.0,
+    "values": [
+      422.0,
+      422.0,
+      422.0
+    ]
+  },
+  "ingroup.per_class.transphobic.f1": {
+    "mean": 0.8851330405413728,
+    "std": 0.03643981166313882,
+    "values": [
+      0.9341317365269461,
+      0.8468085106382979,
+      0.8744588744588745
+    ]
+  },
+  "ingroup.per_class.transphobic.precision": {
+    "mean": 0.9551970357147487,
+    "std": 0.020688492153953613,
+    "values": [
+      0.9551020408163265,
+      0.9299065420560748,
+      0.9805825242718447
+    ]
+  },
+  "ingroup.per_class.transphobic.recall": {
+    "mean": 0.8268229166666666,
+    "std": 0.06187293942977459,
+    "values": [
+      0.9140625,
+      0.77734375,
+      0.7890625
+    ]
+  },
+  "ingroup.per_class.transphobic.support": {
+    "mean": 256.0,
+    "std": 0.0,
+    "values": [
+      256.0,
+      256.0,
+      256.0
+    ]
+  },
+  "ingroup.per_class.white supremacist.f1": {
+    "mean": 0.5589081994973314,
+    "std": 0.08581986545193195,
+    "values": [
+      0.6553911205073996,
+      0.574430823117338,
+      0.4469026548672566
+    ]
+  },
+  "ingroup.per_class.white supremacist.precision": {
+    "mean": 0.6298604601752215,
+    "std": 0.10278614759699478,
+    "values": [
+      0.775,
+      0.5503355704697986,
+      0.5642458100558659
+    ]
+  },
+  "ingroup.per_class.white supremacist.recall": {
+    "mean": 0.5128205128205128,
+    "std": 0.10190789555489782,
+    "values": [
+      0.5677655677655677,
+      0.6007326007326007,
+      0.36996336996337
+    ]
+  },
+  "ingroup.per_class.white supremacist.support": {
+    "mean": 273.0,
+    "std": 0.0,
+    "values": [
+      273.0,
+      273.0,
+      273.0
+    ]
+  },
+  "ingroup.weighted_f1": {
+    "mean": 0.6076908529198622,
+    "std": 0.11926805172020429,
+    "values": [
+      0.4409183614098989,
+      0.6692252269387805,
+      0.7129289704109075
+    ]
+  },
+  "json_parse_rate": {
+    "mean": 0.9689737470167064,
+    "std": 0.022493532235089177,
+    "values": [
+      0.9809069212410502,
+      0.98854415274463,
+      0.9374701670644391
+    ]
+  },
+  "n_samples": {
+    "mean": 2095.0,
+    "std": 0.0,
+    "values": [
+      2095.0,
+      2095.0,
+      2095.0
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-03-31T16:05:13.408109",
+  "method": "heuristic silver negatives (no LLM adjudication)",
+  "source": "informal_potential_dogwhistles only (Reddit)",
+  "max_per_term": 10,
+  "min_text_len": 50,
+  "total_negatives": 6902,
+  "per_split": {
+    "train": 4908,
+    "val": 975,
+    "test": 1019
+  },
+  "terms_covered": 695,
+  "terms_not_found": [
+    "food stamps"
+  ],
+  "noisy_negative_warning": "Some negatives may be true coded uses that were not annotated."
+}

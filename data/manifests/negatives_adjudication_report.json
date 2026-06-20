@@ -1,0 +1,617 @@
+{
+  "stage3_balanced_total_negatives": 8828,
+  "stage3_balanced_total_positives": 8828,
+  "stage3_per_split": {
+    "train": 6183,
+    "test": 1384,
+    "val": 1261
+  },
+  "stage3_dropped_terms": [
+    {
+      "dog_whistle": "#itsokaytobewhite",
+      "K_positives": 2,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "#itsoktobewhite",
+      "K_positives": 3,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "(((echo)))",
+      "K_positives": 9,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "(((fellow whites)))",
+      "K_positives": 9,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "/our guy/",
+      "K_positives": 29,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "A Leppo",
+      "K_positives": 4,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "AFAB trans woman",
+      "K_positives": 2,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "AGPs",
+      "K_positives": 57,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Cohencidence",
+      "K_positives": 14,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Cohencidences",
+      "K_positives": 9,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Hollywood moguls",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Holocauster",
+      "K_positives": 3,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "III%ers",
+      "K_positives": 2,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Jwoke",
+      "K_positives": 43,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Manhattan elite",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "New York elite",
+      "K_positives": 1,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "New York values",
+      "K_positives": 2,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Pajeet",
+      "K_positives": 22,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Pajeets",
+      "K_positives": 32,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Pepe the Frog",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "SWPL",
+      "K_positives": 10,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Schlomo",
+      "K_positives": 16,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Serbia Strong",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Shariah law",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Sunwheel",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "TIFs",
+      "K_positives": 24,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Trans Identified Female",
+      "K_positives": 4,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Trans Identified Males",
+      "K_positives": 11,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Volodymyr Zelensky",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "YWNBAW",
+      "K_positives": 8,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Yahoos",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Zionist Occupation Government",
+      "K_positives": 11,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "Zios",
+      "K_positives": 5,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "autogynephiles",
+      "K_positives": 50,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "autogynophile",
+      "K_positives": 2,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "autogynophiles",
+      "K_positives": 13,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "bear emoji",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "biological female",
+      "K_positives": 2,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "biological realism",
+      "K_positives": 6,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "biological realist",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "boogalo",
+      "K_positives": 2,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "clean up our streets",
+      "K_positives": 3,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "color-blind society",
+      "K_positives": 2,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "cosmopolitan elite",
+      "K_positives": 4,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "cuckservatives",
+      "K_positives": 36,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "da goyim know",
+      "K_positives": 2,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "deadbeat dad",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "dindus",
+      "K_positives": 58,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "fatherless homes",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "food stamps",
+      "K_positives": 1,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "gender woo woo",
+      "K_positives": 11,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "gender-critical feminism",
+      "K_positives": 2,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "genderfree",
+      "K_positives": 2,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "genderist",
+      "K_positives": 19,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "genderists",
+      "K_positives": 16,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "global special interests",
+      "K_positives": 1,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "intact female",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "judicial activists",
+      "K_positives": 30,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "loxism",
+      "K_positives": 10,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "magapede",
+      "K_positives": 5,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "magapedes",
+      "K_positives": 7,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "merit-based immigration policy",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "milk emoji",
+      "K_positives": 3,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "mixed sex",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "mud sharks",
+      "K_positives": 11,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "multi-kulti",
+      "K_positives": 15,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "neolib",
+      "K_positives": 14,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "neolibs",
+      "K_positives": 15,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "nibbas",
+      "K_positives": 8,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "parental choice",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "points-based immigration",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "protecting women and girls",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "protecting women's spaces",
+      "K_positives": 2,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "racial quotas",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "socialised as female",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "socialised as male",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "soy boys",
+      "K_positives": 38,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "soyboi",
+      "K_positives": 18,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "soybois",
+      "K_positives": 94,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "special interest",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "string puller",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "string pullers",
+      "K_positives": 18,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "string-pullers",
+      "K_positives": 7,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "superstraight",
+      "K_positives": 8,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "three strikes policy",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "trans-identified male",
+      "K_positives": 14,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "trans-rights activist",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "troon",
+      "K_positives": 41,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "troons",
+      "K_positives": 53,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "uterus-havers",
+      "K_positives": 7,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "war on crime",
+      "K_positives": 2,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "we wuz kangs",
+      "K_positives": 6,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "welfare cheat",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "windmill",
+      "K_positives": 1,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "windmill of friendship",
+      "K_positives": 4,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "womanface",
+      "K_positives": 8,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "\u26a1 \u26a1",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "\ud83d\udc4c",
+      "K_positives": 5,
+      "n_clean": 2,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "\ud83e\udd95",
+      "K_positives": 1,
+      "n_clean": 0,
+      "reason": "below_min_negatives_floor"
+    },
+    {
+      "dog_whistle": "\ud83e\udd96",
+      "K_positives": 1,
+      "n_clean": 1,
+      "reason": "below_min_negatives_floor"
+    }
+  ],
+  "stage3_dropped_term_count": 100,
+  "stage3_positives_lost_to_drop": 1037,
+  "stage3_min_negatives_per_term": 3,
+  "stage2_contamination_rate": 0.621089687174974,
+  "stage2_unparseable_rate": 0.0034402752220177614,
+  "stage2_judge_model": "meta-llama/Llama-3.1-8B-Instruct"
+}

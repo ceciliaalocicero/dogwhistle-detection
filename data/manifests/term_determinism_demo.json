@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "explainer": "Each row is a dog-whistle root that lives in the grouped-split TEST set — Run A's training data never contained this root, so any RQB Run A prediction here is a cold-start generalisation. `in_alt_train` flags whether the same root was in the alt-split (ingroup-stratified) TRAIN data, which is what gave Run C the chance to memorise the term→ingroup glossary mapping. The 0.996 macro-F1 of Run C is built on this leak.",
+  "n_grouped_test_roots": 40,
+  "n_with_sample": 40,
+  "n_in_alt_train": 40,
+  "n_in_alt_test_too": 34,
+  "entries": [
+    {
+      "root": "41%",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "41",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "He may not be as swampy as we think. May be a patriot. Nobody really knows. One thing is for sure, the Dems are going to look like clowns after fussing about him because he was confirmed unanimously and they've spent the past week worshipping 41",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "All Lives Matter",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "ALM",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Black person* cause there is only one black person benefiting this. He could spend that money on his people. Thats why I hate BLM. I hate ALM too, don't get me wrong. Noone's actually thinking of black people in these groups. Just votes.",
+      "sample_subreddit": "WhitePeopleTwitter"
+    },
+    {
+      "root": "Boogaloo",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "the Hawaiian shirt",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Not all memes are symbols, but all symbols are memes. The Hawaiian shirt boog movement very quickly became real, and for good reason. It was a rallying cry against federal tyranny.",
+      "sample_subreddit": "WhitePeopleTwitter"
+    },
+    {
+      "root": "COIN",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "COIN",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "Any visual criteria for clocking trans women would \"clock\" quite a few intersex women as transgender. In addition to intersex women, 2%+ of non-intersex women are affected by PCOS and appear masculine due to elevated androgens in their body. COIN COIN COIN ^/s",
+      "sample_subreddit": "GenderCynical"
+    },
+    {
+      "root": "Hollywood elite",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "Hollywood",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Nothing strange is happening. He's just a pervert. Hell this probably just damage control. We don't need 800 million contradictory conspiracy theories like with 9/11 so we can't talk about the real issues. Islam is responsible for 9/11 and Hollywood is filled with pedos. Nothing more complicated than that. No conspicuous conspiracies needed.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "Holocauster",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "Holocauster",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Except not at all, or at least not to the best of our current knowledge, they are being treated as prisoners are, however they arent letting people into the facilities so who knows, maybe its holocauster tycoon, but i dont think so",
+      "sample_subreddit": "WhitePeopleTwitter"
+    },
+    {
+      "root": "Islamic extremists",
+      "gold_ingroup": "Islamophobic",
+      "surface_form_in_sample": "extremist",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "I think the correct figure according to intelligence in different countries ranges extremist muslims to be between 15-25% of all muslims. That's a lot more.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "Judeo-Christian",
+      "gold_ingroup": "Islamophobic",
+      "surface_form_in_sample": "Judeo-Christian",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "I like how the globalists claim each case of right wing populism in the Judeo-Christian world is an isolated case. US, Mexico, Brazil, Germany, UK and 20 other countries beg to differ.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "Khazars",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "Khazar",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "We should just bring back that one mma dude, Bully Beatdown is **way** superiour. Basically goes online with some kid, asshole khazar tries to swat him, they dox him back and show up in person. Splazam! Hottest TV comeback of the year, eat it Roseanne!",
+      "sample_subreddit": "KotakuInAction"
+    },
+    {
+      "root": "MAGA",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "Make America Great Again",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "donald trump is not, and has not, ever been a racist. that is a rumor put forth by the disgusting democratic liberal media. kinda wish people would get their facts straight. not a trump supporter btw, just someone who cares about the country and i wanna make america great again.",
+      "sample_subreddit": "BlackPeopleTwitter"
+    },
+    {
+      "root": "New York intellectuals",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "New York intellectuals",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "Cultural Anthropology produced the race denial we see so prevalent today. The New York Intellectuals are the early foundations of the Jewish media so prevalent today. Many political commentators are descendants of those critics.",
+      "sample_subreddit": "milliondollarextreme"
+    },
+    {
+      "root": "Vinland",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "Vinland",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "They claim there are no more Vikings? Mot långskeppen bröder och systrar, vi drar till Vinland för att åter härja!",
+      "sample_subreddit": "TumblrInAction"
+    },
+    {
+      "root": "Willie Horton",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "Willie Horton",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Is it popular in New York? I absolutely love it but I get the feeling even as the consciousness of mass incarceration has risen, most voters are still chuds who want convicted criminals to suffer as much as possible and will never support criminal justice reform and will always be guiled by Willie Horton-style ads.",
+      "sample_subreddit": "ChapoTrapHouse"
+    },
+    {
+      "root": "affirmative action",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "affirmative action",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Affirmative action coming back to bite America in the ass. This is what happens when you fuck with the free market.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "biological realism",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "biological reality",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Many proponents of abortion, especially those who support abortion at all stages of pregnancy, are very dishonest about the biological reality of the procedure.",
+      "sample_subreddit": "TumblrInAction"
+    },
+    {
+      "root": "blueish",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "blue",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "And Iowa is an important state for Trump in a general election. It's been blue for the last few cycles, and it has the potential of flipping to Trump this time. It's not worth much but if he's able to take it, it opens up some different paths for him.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "bop",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "bop",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "Who else had complete control of the DOJ, BOP &amp; cops to arrange the \"suicide\" of a guy that has lots of ammo on them?",
+      "sample_subreddit": "WhitePeopleTwitter"
+    },
+    {
+      "root": "brave and stunning",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "brave and stunning",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Ah yes, we are trash for not wanting our organs harvested for males fantasies. How much more will these trans people ask from women? Now they literally want to harvest our organs. When will the world wake the fuck up to this insanity and realize these people are psychos? They aren't brave and stunning anymore than Ed Gein was.",
+      "sample_subreddit": "TumblrInAction"
+    },
+    {
+      "root": "cherry emoji",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "🍒",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "Those poor NSA agents watching you 🍆 💦 on your webcam ... tut tut Personally I always make sure my 🍒 🧠 are in in view 24/7",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "coincidence",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "coincidence",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Funny how there's been tons of rallies before but suddenly there's all sorts of Nazi imagery just so convenient for the cameras at this specific rally. Probably just a coincidence I'm sure..",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "controlled media",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "media control",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Jews were the enemy and still are. Brainwashed the german people by controlling their government and higher institutions of learning. Along with media control. The same exact shit the nazis attacked them for 80 years ago",
+      "sample_subreddit": "CringeAnarchy"
+    },
+    {
+      "root": "cultural enrichment",
+      "gold_ingroup": "Islamophobic",
+      "surface_form_in_sample": "cultural enrichment",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "He most certainly did get indicted. I suppose the posts about it got buried because of the cultural enrichment that happened in Spain yesterday.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "early life",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "early life",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "They're currently fabricating an \"early life\" for him, complete with childhood photos, family photos, pregnancy photos.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "election integrity",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "rigged election",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "She is a criminal and should be in prison for the rest of her life. Half of Americans believe this and will never accept her as President. What do you suppose will come of this? Will everyone just forget November 9th after this rigged election? I don't think so.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "frog emoji",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "🐸",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "🐸 remember, the Atrazine in pesticides runs off into water and turns frogs gay (and trans), 10% become infertile. This was a UC Berkeley study... Alex Jones was citing the most liberal institution in the world",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "gender socialization",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "female socialization",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "I lost Twitter friends because I reposted an article about why we encourage girls to act more like boys but we don't encourage boys to act more like girl. I mentioned female socialization which is transphobic. You just can't predict what they'll choose to be outraged over in any given week.",
+      "sample_subreddit": "GenderCritical"
+    },
+    {
+      "root": "ghetto",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "ghettos",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "I've been jumped and been called more racial slurs from blacks and hispanixs than white males or females in my whole life. This has been true whether I was in city ghettos or old white suburban areas. Don't be misled that the majority of them care or even acknowledge our situation in the western world.",
+      "sample_subreddit": "aznidentity"
+    },
+    {
+      "root": "lesbian erasure",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "lesbian erasure",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "It is appalling. I want to do something. But I feel powerless. What can we do to bring back lesbianism? I don’t want to hurt trans people...but lesbian erasure is not acceptable.",
+      "sample_subreddit": "GenderCritical"
+    },
+    {
+      "root": "lizard emoji",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "🦎",
+      "in_alt_train": true,
+      "in_alt_test": false,
+      "sample_comment": "I may work for the 🦎 and every day I think about this at work it kills me. Tons of Shitlibs at my job. Currently looking for new job.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "overpopulation",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "overpopulation",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Not a little better. Much better. China was saved with its one child policy. Only globalists want overpopulation because they want more slaves and more buyers.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "power level",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "power level",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "“This is a power level of the likes I never thought possible?!!!!” MAKE AMERICA GREAT AGAIN 🇺🇸🇺🇸🇺🇸🐸👌👌💪💪",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "preemptive strike",
+      "gold_ingroup": "conservative",
+      "surface_form_in_sample": "preemptive strike",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Well Bernie just made it very clear he would authorize a preemptive strike on the Cheney residence How uncivil",
+      "sample_subreddit": "ChapoTrapHouse"
+    },
+    {
+      "root": "puppet masters",
+      "gold_ingroup": "antisemitic",
+      "surface_form_in_sample": "puppet masters",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Rick Scott was trying to destroy America so his globalist puppet masters can waltz in and take over. People need to understand the political system is rife with traitors because we stopped persecuting them. Instead we gave them benefits and the privacy to build up conspiracies and eat children. Well done.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "references to cities with large racial minority populations being overrun by crime, drugs, rodents",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "Baltimore",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Baltimore is going to end up like Detroit, having a lack of police. Then the chimps will start wiping each other out.",
+      "sample_subreddit": "CoonTown"
+    },
+    {
+      "root": "social justice warrior",
+      "gold_ingroup": "anti-liberal",
+      "surface_form_in_sample": "SJW",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "Far left SJW/Woke activists use a variety of words with double meanings intentionally, including privilege, inclusion, comfort, and safety. Equity is no different. In the past, equity meant fairness or debt paid off, but under Theory, it brings neo-marxist intent.",
+      "sample_subreddit": "goldandblack"
+    },
+    {
+      "root": "strapping young buck",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "young buck",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "He’s partially right. I do t think the young bucks are the ones behind this. They’re just hired along for the votes.",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "take back",
+      "gold_ingroup": "white supremacist",
+      "surface_form_in_sample": "take back",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "NOT ONLY ARE WE GOING TO SOUTH CAROLINA, WE'RE GOING TO OKLAHOMA AND ARIZONA AND NORTH DAKOTA AND NEW MEXICO!! WE'RE GOING TO CALIFORNIA! AND TEXAS! AND NEW YORK! AND WE'RE GOING TO SOUTH CAROLINA, AND OREGON AND WASHINGTON, AND MICHIGAN!!! AND THEN WE'RE GOING TO WASHINGTON DC TO TAKE BACK THE WHITEHOUSE!!! YAAWYYWYAAAWWW!!!!!",
+      "sample_subreddit": "ChapoTrapHouse"
+    },
+    {
+      "root": "thug",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "thugs",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "i know what u mean but the article adressed the fact that they were thugs and said they attacked due to race",
+      "sample_subreddit": "The_Donald"
+    },
+    {
+      "root": "uterus-haver",
+      "gold_ingroup": "transphobic",
+      "surface_form_in_sample": "uterus-havers",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "We can dress how we want because our bodies show we are female. If they don't put on a skirt or lipstick nobody will acknowledge their chosen identity. Tl/dr massive overcompensation for not being uterus-havers",
+      "sample_subreddit": "GenderCritical"
+    },
+    {
+      "root": "working class",
+      "gold_ingroup": "racist",
+      "surface_form_in_sample": "working class",
+      "in_alt_train": true,
+      "in_alt_test": true,
+      "sample_comment": "The “people”, the vast majority of the European-American working class in the US, are mostly irredeemably racist.",
+      "sample_subreddit": "GenZedong"
+    }
+  ]
+}

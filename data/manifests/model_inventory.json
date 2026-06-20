@@ -1,0 +1,425 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-04-29",
+  "hf_user": "calerio",
+  "hf_repo_template": "calerio/silent-signals-{task}",
+  "field_doc": {
+    "best_variant": "Raw single-seed leader by headline_metric. Sometimes a sensitivity-check or lucky seed; NOT necessarily what the demo ships.",
+    "default_variant": "What the Space defaults to in the dropdown. Chosen by the per-task rules in build_model_inventory.py and defended in docs/hf_space_report.md."
+  },
+  "tasks": {
+    "rqa": {
+      "description": "Binary disambiguator \u2014 coded vs literal use of a candidate dog-whistle term. RoBERTa-base.",
+      "model_family": "FacebookAI/roberta-base",
+      "headline_metric": "disambiguation_124_f1",
+      "headline_metric_doc": "F1 on the 124-row locked human-eval disambiguation set (see DESIGN_DEFENSE.md D7).",
+      "labels": {
+        "0": "literal",
+        "1": "coded"
+      },
+      "best_variant": "rqa_term_enriched_def_seed7",
+      "default_variant": "rqa_term_seed7",
+      "default_variant_rationale": "Picked the arm with the highest mean disambiguation_124_f1 across seeds (term = 0.7074), then the best seed within. Defends a per-arm comparison, not a single-seed peak. See docs/rq_a_report.md.",
+      "variants": [
+        {
+          "id": "rqa_term_seed123",
+          "task": "rqa",
+          "arm": "term",
+          "seed": 123,
+          "artifact_local": "results/binary/format_term/seed_123/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term/seed_123/best_model",
+          "predictions_local": "results/binary/format_term/seed_123/predictions",
+          "hf_branch": "term-seed123",
+          "metrics": {
+            "test_split_f1": 0.801,
+            "test_split_accuracy": 0.7995,
+            "detection_101_f1": 0.7111,
+            "detection_101_accuracy": 0.7426,
+            "disambiguation_124_f1": 0.688,
+            "disambiguation_124_accuracy": 0.6855
+          }
+        },
+        {
+          "id": "rqa_term_seed42",
+          "task": "rqa",
+          "arm": "term",
+          "seed": 42,
+          "artifact_local": "results/binary/format_term/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term/seed_42/best_model",
+          "predictions_local": "results/binary/format_term/seed_42/predictions",
+          "hf_branch": "term-seed42",
+          "metrics": {
+            "test_split_f1": 0.7968,
+            "test_split_accuracy": 0.7901,
+            "detection_101_f1": 0.6742,
+            "detection_101_accuracy": 0.7129,
+            "disambiguation_124_f1": 0.7097,
+            "disambiguation_124_accuracy": 0.7097
+          }
+        },
+        {
+          "id": "rqa_term_seed7",
+          "task": "rqa",
+          "arm": "term",
+          "seed": 7,
+          "artifact_local": "results/binary/format_term/seed_7/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term/seed_7/best_model",
+          "predictions_local": "results/binary/format_term/seed_7/predictions",
+          "hf_branch": "term-seed7",
+          "metrics": {
+            "test_split_f1": 0.7771,
+            "test_split_accuracy": 0.7514,
+            "detection_101_f1": 0.7767,
+            "detection_101_accuracy": 0.7723,
+            "disambiguation_124_f1": 0.7246,
+            "disambiguation_124_accuracy": 0.6935
+          }
+        },
+        {
+          "id": "rqa_term_enriched_def_seed123",
+          "task": "rqa",
+          "arm": "term_enriched_def",
+          "seed": 123,
+          "artifact_local": "results/binary/format_term_enriched_def/seed_123/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term_enriched_def/seed_123/best_model",
+          "predictions_local": "results/binary/format_term_enriched_def/seed_123/predictions",
+          "hf_branch": "term-enriched-def-seed123",
+          "metrics": {
+            "test_split_f1": 0.7765,
+            "test_split_accuracy": 0.7746,
+            "detection_101_f1": 0.6966,
+            "detection_101_accuracy": 0.7327,
+            "disambiguation_124_f1": 0.6774,
+            "disambiguation_124_accuracy": 0.6774
+          }
+        },
+        {
+          "id": "rqa_term_enriched_def_seed42",
+          "task": "rqa",
+          "arm": "term_enriched_def",
+          "seed": 42,
+          "artifact_local": "results/binary/format_term_enriched_def/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term_enriched_def/seed_42/best_model",
+          "predictions_local": "results/binary/format_term_enriched_def/seed_42/predictions",
+          "hf_branch": "term-enriched-def-seed42",
+          "metrics": {
+            "test_split_f1": 0.7818,
+            "test_split_accuracy": 0.7731,
+            "detection_101_f1": 0.7234,
+            "detection_101_accuracy": 0.7426,
+            "disambiguation_124_f1": 0.6992,
+            "disambiguation_124_accuracy": 0.7016
+          }
+        },
+        {
+          "id": "rqa_term_enriched_def_seed7",
+          "task": "rqa",
+          "arm": "term_enriched_def",
+          "seed": 7,
+          "artifact_local": "results/binary/format_term_enriched_def/seed_7/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/binary/format_term_enriched_def/seed_7/best_model",
+          "predictions_local": "results/binary/format_term_enriched_def/seed_7/predictions",
+          "hf_branch": "term-enriched-def-seed7",
+          "metrics": {
+            "test_split_f1": 0.747,
+            "test_split_accuracy": 0.6908,
+            "detection_101_f1": 0.8108,
+            "detection_101_accuracy": 0.7921,
+            "disambiguation_124_f1": 0.7296,
+            "disambiguation_124_accuracy": 0.6532
+          }
+        }
+      ]
+    },
+    "rqb": {
+      "description": "Multiclass ingroup classifier (17 classes; train-only label space). RoBERTa-base.",
+      "model_family": "FacebookAI/roberta-base",
+      "headline_metric": "f1_macro",
+      "headline_metric_doc": "macro-F1 on the grouped-split test (held-out roots; see docs/rq_b_report.md \u00a7 4.1).",
+      "labels": {
+        "0": "Islamophobic",
+        "1": "anti-Asian",
+        "2": "anti-GMO",
+        "3": "anti-LGBTQ",
+        "4": "anti-Latino",
+        "5": "anti-liberal",
+        "6": "anti-vax",
+        "7": "antisemitic",
+        "8": "climate change denier",
+        "9": "conservative",
+        "10": "homophobic",
+        "11": "liberal",
+        "12": "racist",
+        "13": "religious",
+        "14": "transphobic",
+        "15": "white supremacist",
+        "16": "xenophobic"
+      },
+      "best_variant": "rqb_term_altsplit_seed42",
+      "default_variant": "rqb_term_seed123",
+      "default_variant_rationale": "Restricted to Run A (term arm, grouped split, no run_tag) \u2014 the headline system in docs/rq_b_report.md. Run C (altsplit, 0.996) is excluded: it's a glossary-determinism artefact, not generalization, and defaulting to it would misrepresent RQ-B's central finding. The Run C model remains selectable in the dropdown for the educational tab (Step 6).",
+      "variants": [
+        {
+          "id": "rqb_term_seed123",
+          "task": "rqb",
+          "arm": "term",
+          "run_tag": null,
+          "seed": 123,
+          "artifact_local": "results/multiclass/format_term/seed_123/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_term/seed_123/best_model",
+          "predictions_local": "results/multiclass/format_term/seed_123/predictions",
+          "hf_branch": "term-seed123",
+          "metrics": {
+            "f1_macro": 0.3626,
+            "f1_weighted": 0.4353,
+            "accuracy": 0.4912,
+            "n_test": 2095
+          }
+        },
+        {
+          "id": "rqb_term_seed42",
+          "task": "rqb",
+          "arm": "term",
+          "run_tag": null,
+          "seed": 42,
+          "artifact_local": "results/multiclass/format_term/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_term/seed_42/best_model",
+          "predictions_local": "results/multiclass/format_term/seed_42/predictions",
+          "hf_branch": "term-seed42",
+          "metrics": {
+            "f1_macro": 0.3491,
+            "f1_weighted": 0.4177,
+            "accuracy": 0.4716,
+            "n_test": 2095
+          }
+        },
+        {
+          "id": "rqb_term_seed7",
+          "task": "rqb",
+          "arm": "term",
+          "run_tag": null,
+          "seed": 7,
+          "artifact_local": "results/multiclass/format_term/seed_7/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_term/seed_7/best_model",
+          "predictions_local": "results/multiclass/format_term/seed_7/predictions",
+          "hf_branch": "term-seed7",
+          "metrics": {
+            "f1_macro": 0.3468,
+            "f1_weighted": 0.406,
+            "accuracy": 0.4711,
+            "n_test": 2095
+          }
+        },
+        {
+          "id": "rqb_term_altsplit_seed42",
+          "task": "rqb",
+          "arm": "term",
+          "run_tag": "altsplit",
+          "seed": 42,
+          "artifact_local": "results/multiclass/format_term_altsplit/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_term_altsplit/seed_42/best_model",
+          "predictions_local": "results/multiclass/format_term_altsplit/seed_42/predictions",
+          "hf_branch": "term-altsplit-seed42",
+          "metrics": {
+            "f1_macro": 0.9964,
+            "f1_weighted": 0.9985,
+            "accuracy": 0.9985,
+            "n_test": 1947
+          }
+        },
+        {
+          "id": "rqb_term_weighted_seed42",
+          "task": "rqb",
+          "arm": "term",
+          "run_tag": "weighted",
+          "seed": 42,
+          "artifact_local": "results/multiclass/format_term_weighted/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_term_weighted/seed_42/best_model",
+          "predictions_local": "results/multiclass/format_term_weighted/seed_42/predictions",
+          "hf_branch": "term-weighted-seed42",
+          "metrics": {
+            "f1_macro": 0.3346,
+            "f1_weighted": 0.3596,
+            "accuracy": 0.4501,
+            "n_test": 2095
+          }
+        },
+        {
+          "id": "rqb_text_only_seed42",
+          "task": "rqb",
+          "arm": "text_only",
+          "run_tag": null,
+          "seed": 42,
+          "artifact_local": "results/multiclass/format_text_only/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/multiclass/format_text_only/seed_42/best_model",
+          "predictions_local": "results/multiclass/format_text_only/seed_42/predictions",
+          "hf_branch": "text-only-seed42",
+          "metrics": {
+            "f1_macro": 0.314,
+            "f1_weighted": 0.4469,
+            "accuracy": 0.4926,
+            "n_test": 2095
+          }
+        }
+      ],
+      "temperature": 2.26,
+      "temperature_note": "Single-T scaling fitted on val (1754 rows, term-seed123). NLL 2.33 -> 1.53. Argmax-preserving; only confidence values change. See data/manifests/rqb_temperature.json."
+    },
+    "rqc": {
+      "description": "Structured generator \u2014 produces (root, ingroup, definition, explanation) JSON. Flan-T5-XL + LoRA.",
+      "model_family": "google/flan-t5-xl",
+      "is_lora": true,
+      "headline_metric": "ingroup.macro_f1",
+      "headline_metric_doc": "ingroup macro-F1 on the grouped-split test (see docs/rq_c_report.md).",
+      "best_variant": "rqc_pathB_seed42",
+      "default_variant": "rqc_pathA_seed7",
+      "default_variant_rationale": "Restricted to Path A (unbalanced) \u2014 the defensible system per docs/rq_c_report.md \u00a7 4. Path B variants stay in the dropdown for comparison but aren't the default.",
+      "variants": [
+        {
+          "id": "rqc_pathA_seed123",
+          "task": "rqc",
+          "path": "A",
+          "seed": 123,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation/seed_123/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation/seed_123/best_model",
+          "predictions_local": "results/generation/seed_123/test_predictions.parquet",
+          "hf_branch": "patha-seed123",
+          "metrics": {
+            "json_parse_rate": 0.957,
+            "ingroup.accuracy": 0.4697,
+            "ingroup.macro_f1": 0.3604,
+            "ingroup.weighted_f1": 0.4151,
+            "dog_whistle_root.macro_f1": 0.1521,
+            "definition.macro_f1": 0.0128,
+            "explanation_cosine_mean": 0.5001,
+            "explanation_rouge_l_mean": 0.7479,
+            "n_samples": 2095
+          }
+        },
+        {
+          "id": "rqc_pathA_seed42",
+          "task": "rqc",
+          "path": "A",
+          "seed": 42,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation/seed_42/best_model",
+          "predictions_local": "results/generation/seed_42/test_predictions.parquet",
+          "hf_branch": "patha-seed42",
+          "metrics": {
+            "json_parse_rate": 0.9718,
+            "ingroup.accuracy": 0.474,
+            "ingroup.macro_f1": 0.3829,
+            "ingroup.weighted_f1": 0.4099,
+            "dog_whistle_root.macro_f1": 0.1587,
+            "definition.macro_f1": 0.0205,
+            "explanation_cosine_mean": 0.5247,
+            "explanation_rouge_l_mean": 0.7669,
+            "n_samples": 2095
+          }
+        },
+        {
+          "id": "rqc_pathA_seed7",
+          "task": "rqc",
+          "path": "A",
+          "seed": 7,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation/seed_7/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation/seed_7/best_model",
+          "predictions_local": "results/generation/seed_7/test_predictions.parquet",
+          "hf_branch": "patha-seed7",
+          "metrics": {
+            "json_parse_rate": 0.9971,
+            "ingroup.accuracy": 0.5169,
+            "ingroup.macro_f1": 0.3933,
+            "ingroup.weighted_f1": 0.4678,
+            "dog_whistle_root.macro_f1": 0.1699,
+            "definition.macro_f1": 0.0142,
+            "explanation_cosine_mean": 0.505,
+            "explanation_rouge_l_mean": 0.7757,
+            "n_samples": 2095
+          }
+        },
+        {
+          "id": "rqc_pathB_seed123",
+          "task": "rqc",
+          "path": "B",
+          "seed": 123,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation_balanced/seed_123/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation_balanced/seed_123/best_model",
+          "predictions_local": "results/generation_balanced/seed_123/test_predictions.parquet",
+          "hf_branch": "pathb-seed123",
+          "metrics": {
+            "json_parse_rate": 0.9809,
+            "ingroup.accuracy": 0.5131,
+            "ingroup.macro_f1": 0.4163,
+            "ingroup.weighted_f1": 0.4409,
+            "dog_whistle_root.macro_f1": 0.184,
+            "definition.macro_f1": 0.025,
+            "explanation_cosine_mean": 0.5277,
+            "explanation_rouge_l_mean": 0.7823,
+            "n_samples": 2095
+          }
+        },
+        {
+          "id": "rqc_pathB_seed42",
+          "task": "rqc",
+          "path": "B",
+          "seed": 42,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation_balanced/seed_42/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation_balanced/seed_42/best_model",
+          "predictions_local": "results/generation_balanced/seed_42/test_predictions.parquet",
+          "hf_branch": "pathb-seed42",
+          "metrics": {
+            "json_parse_rate": 0.9885,
+            "ingroup.accuracy": 0.6544,
+            "ingroup.macro_f1": 0.4384,
+            "ingroup.weighted_f1": 0.6692,
+            "dog_whistle_root.macro_f1": 0.1499,
+            "definition.macro_f1": 0.0213,
+            "explanation_cosine_mean": 0.5466,
+            "explanation_rouge_l_mean": 0.7993,
+            "n_samples": 2095
+          }
+        },
+        {
+          "id": "rqc_pathB_seed7",
+          "task": "rqc",
+          "path": "B",
+          "seed": 7,
+          "is_lora_adapter": true,
+          "base_model": "google/flan-t5-xl",
+          "artifact_local": "results/generation_balanced/seed_7/best_model",
+          "artifact_hpc": "~/dogwhistle_project/results/generation_balanced/seed_7/best_model",
+          "predictions_local": "results/generation_balanced/seed_7/test_predictions.parquet",
+          "hf_branch": "pathb-seed7",
+          "metrics": {
+            "json_parse_rate": 0.9375,
+            "ingroup.accuracy": 0.6492,
+            "ingroup.macro_f1": 0.2955,
+            "ingroup.weighted_f1": 0.7129,
+            "dog_whistle_root.macro_f1": 0.1661,
+            "definition.macro_f1": 0.0166,
+            "explanation_cosine_mean": 0.5519,
+            "explanation_rouge_l_mean": 0.7757,
+            "n_samples": 2095
+          }
+        }
+      ]
+    }
+  },
+  "totals": {
+    "rqa": 6,
+    "rqb": 6,
+    "rqc": 6,
+    "all": 18
+  }
+}
