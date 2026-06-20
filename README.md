@@ -1,4 +1,8 @@
-# Dog Whistle Detection with Explainable NLP
+# Hidden in Plain Sight: Dog Whistle Detection, Classification, and Explanation
+
+> **Project Summary**
+>
+> Developed an end-to-end NLP pipeline for detecting coded dog-whistle language on Reddit, classifying ideological ingroups, and generating structured explanations. Fine-tuned RoBERTa for binary and multiclass classification and Flan-T5-XL + LoRA for structured explanation generation. The project's central finding demonstrates that apparent near-perfect performance on ingroup classification is largely explained by evaluation leakage, with macro-F1 dropping from **0.996 to 0.353** when dog-whistle roots are properly held out during testing.
 
 End-to-end NLP pipeline for detecting coded dog-whistle language on Reddit, classifying the targeted ingroup, and generating structured explanations using transformer-based language models.
 
@@ -31,6 +35,39 @@ This project addresses three NLP tasks:
 
 ---
 
+## Main Research Finding
+
+A central contribution of this work is demonstrating the impact of evaluation leakage.
+
+When dog-whistle roots are allowed to appear in both training and testing sets:
+
+* **Macro-F1 = 0.996**
+
+When roots are fully held out:
+
+* **Macro-F1 = 0.353**
+
+This shows that much of the apparent performance in prior formulations can be explained by glossary memorization rather than contextual understanding. The result highlights the importance of root-stratified evaluation protocols when working with dog-whistle detection datasets.
+
+---
+
+## Pipeline
+
+```text
+Reddit Comments
+        ↓
+Dog Whistle Detection
+     (RoBERTa)
+        ↓
+Ingroup Classification
+     (RoBERTa)
+        ↓
+Structured Explanation
+   (Flan-T5-XL + LoRA)
+```
+
+---
+
 ## What This Project Demonstrates
 
 * Fine-tuning transformer models for NLP classification
@@ -48,7 +85,7 @@ This project addresses three NLP tasks:
 
 The project uses the **Silent Signals** dataset (Kruk et al., 2024), derived from the Allen AI Glossary of Dog Whistles.
 
-Characteristics:
+### Dataset Characteristics
 
 * ~13,000 coded Reddit examples
 * 298 canonical dog-whistle roots
@@ -63,22 +100,22 @@ To avoid leakage, all train/validation/test splits were grouped by dog-whistle r
 
 ### Task 1 — Binary Disambiguation
 
-**Objective**
+#### Objective
 
 Determine whether a phrase is being used literally or as a coded dog whistle.
 
-**Model**
+#### Model
 
 * RoBERTa-base
 * Binary classification head
 
-**Input**
+#### Input
 
 * Target phrase
 * Reddit comment context
 * Binary classification prompt
 
-**Evaluation**
+#### Evaluation
 
 * F1 Score
 * Accuracy
@@ -88,16 +125,16 @@ Determine whether a phrase is being used literally or as a coded dog whistle.
 
 ### Task 2 — Ingroup Classification
 
-**Objective**
+#### Objective
 
 Predict which ideological ingroup a coded expression targets.
 
-**Model**
+#### Model
 
 * RoBERTa-base
 * 17-class classifier
 
-**Evaluation Protocol**
+#### Evaluation Protocol
 
 A root-stratified split was used to prevent memorization of glossary entries and evaluate genuine contextual understanding.
 
@@ -105,16 +142,16 @@ A root-stratified split was used to prevent memorization of glossary entries and
 
 ### Task 3 — Structured Explanation Generation
 
-**Objective**
+#### Objective
 
 Generate machine-readable explanations for coded language.
 
-**Model**
+#### Model
 
 * Flan-T5-XL
 * LoRA adapters
 
-**Output Format**
+#### Output Format
 
 ```json
 {
@@ -139,20 +176,6 @@ The generation pipeline includes automatic JSON repair to recover malformed outp
 | Structured Generation  | Flan-T5-XL + LoRA | Macro-F1 = 0.379      |
 | Structured Generation  | Flan-T5-XL + LoRA | 97.5% JSON Parse Rate |
 
-### Main Research Finding
-
-A central contribution of this work is demonstrating the impact of evaluation leakage.
-
-When dog-whistle roots are allowed to appear in both training and testing sets:
-
-* Macro-F1 = 0.996
-
-When roots are fully held out:
-
-* Macro-F1 = 0.353
-
-This shows that much of the apparent performance in prior formulations can be explained by glossary memorization rather than contextual understanding.
-
 ---
 
 ## Technical Stack
@@ -161,9 +184,9 @@ This shows that much of the apparent performance in prior formulations can be ex
 
 * PyTorch
 * Hugging Face Transformers
-* LoRA
-* Flan-T5-XL
 * RoBERTa-base
+* Flan-T5-XL
+* LoRA
 
 ### Data Processing
 
