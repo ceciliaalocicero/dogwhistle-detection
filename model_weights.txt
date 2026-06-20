@@ -1,0 +1,73 @@
+Trained model checkpoints, Bocconi 20597 Group 01
+====================================================
+
+Per FAQ Q5, model weights are not bundled in the submission ZIP (300 MB cap).
+They are hosted on Hugging Face Hub, free and publicly accessible, with one
+HF branch per (arm, seed) combination.
+
+RQ-A: Binary disambiguator (RoBERTa-base, ~500 MB per checkpoint × 6 variants)
+--------------------------------------------------------------------------------
+Repo:    https://huggingface.co/calerio/silent-signals-rqa
+Branches:
+  term-seed42, term-seed123, term-seed7
+    \_ Default demo variant. F1 = 0.707 ± 0.015 on eval_disambiguation_124
+       is the mean over these three seeds.
+  term-enriched-def-seed42, term-enriched-def-seed123, term-enriched-def-seed7
+    \_ The "+definition" arm; F1 = 0.702 ± 0.021 on disambiguation_124.
+
+Download a single seed:
+  huggingface-cli download calerio/silent-signals-rqa \
+      --revision term-seed42 --local-dir ./checkpoints/rqa_term_seed42
+
+
+RQ-B: Multiclass ingroup classifier (RoBERTa-base, ~500 MB × 6 variants)
+--------------------------------------------------------------------------------
+Repo:    https://huggingface.co/calerio/silent-signals-rqb
+Branches:
+  term-seed42, term-seed123, term-seed7
+    \_ Run A: the methodologically-correct main system (root-stratified split);
+       macro-F1 = 0.353 ± 0.007.
+  term-altsplit-seed42
+    \_ Run C: leaky control (ingroup-stratified random split); macro-F1 = 0.996.
+       Reported as a sensitivity check, not as the main result.
+  term-weighted-seed42
+    \_ Run D: class-weighted CE; macro-F1 = 0.335 (does not help).
+  text-only-seed42
+    \_ Run B: text-only input ablation; macro-F1 = 0.314.
+
+Download:
+  huggingface-cli download calerio/silent-signals-rqb \
+      --revision term-seed42 --local-dir ./checkpoints/rqb_term_seed42
+
+
+RQ-C: Structured generator (Flan-T5-XL + LoRA adapters, ~36 MB per adapter × 6)
+--------------------------------------------------------------------------------
+Repo:    https://huggingface.co/calerio/silent-signals-rqc
+Branches:
+  patha-seed42, patha-seed123, patha-seed7
+    \_ Path A (unbalanced training); ingroup macro-F1 = 0.379 ± 0.014. The
+       recommended single system.
+  pathb-seed42, pathb-seed123, pathb-seed7
+    \_ Path B (oversampled to 1500 rows × 17 ingroups); ingroup macro-F1
+       = 0.383 ± 0.063 (statistically equivalent to Path A; +12 pp accuracy
+       is class-prior reweighting under prior shift, not learned generalisation).
+
+These are LoRA adapters only (~36 MB each), not full models. Load on top
+of google/flan-t5-xl. Download:
+  huggingface-cli download calerio/silent-signals-rqc \
+      --revision patha-seed42 --local-dir ./checkpoints/rqc_pathA_seed42
+
+  python -c "
+  from transformers import T5ForConditionalGeneration
+  from peft import PeftModel
+  base = T5ForConditionalGeneration.from_pretrained('google/flan-t5-xl')
+  model = PeftModel.from_pretrained(base, './checkpoints/rqc_pathA_seed42')
+  "
+
+
+Provenance
+----------
+A complete provenance manifest including per-variant metrics, HPC training
+times, and the local-vs-Hub artefact mapping is in
+data/manifests/model_inventory.json. It is the canonical inventory of which
+variants exist and which one is the default for the demo.
